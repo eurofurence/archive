@@ -6,13 +6,15 @@
     <meta name="description" content="Conbooks, Daily Newspapers and Websites of more than two decades of Eurofurence.">
     <link rel="icon" href="https://www.eurofurence.de/picture/layout/ef-icon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
 
     <title>Eurofurence - Archive</title>
 
     <link href="style.css" rel="stylesheet">
   </head>
 
-  <body style="margin: 0; padding: 0;">
+  <body style="margin: 0; padding: 0; overflow: hidden;">
     <!-- Archive Banner -->
     <div style="background-color: rgb(0,89,83); position: absolute; left: 40px; width:168px; height: 100%;">
       <img src="https://www.eurofurence.de/picture/layout/ef-logo-web.png" style="position: absolute; bottom: 20px;" />
@@ -22,36 +24,107 @@
     </div>
 
     <!-- Top Divider -->
-    <div style="background-color: rgb(0,89,83); position: absolute; left: 208px; top: 30px; width:calc(100vw - 208px); height:5px;">
+    <div style="background-color: rgb(0,89,83); position: absolute; left: 208px; top: 0; width:calc(100vw - 208px); height:5px;">
     </div>
 
-    <div style="position: absolute; left: 208px; top: 35px; height: calc(100vh - 35px); border-right: 1px solid lightgray; overflow-y: auto; overflow-x: hidden;">
-    <div class="ui attached vertical menu">
-    <a class="item">
-        <h4 class="ui header">Eurofurence 23</h4>
-        <p>Back to the 80s</p>
-    </a>
-    <a class="active item">
-        <h4 class="ui header">Eurofurence 22</h4>
-        <p>Greenhouse World</p>
-    </a>
-    <a class="item">
-        <h4 class="ui header">Eurofurence 21</h4>
-        <p>Crime Scene Berlin</p>
-    </a>
-    <a class="item">
-        <h4 class="ui header">Eurofurence -1</h4>
-        <p>Look at how long the name for this convention is! Sooooo long!</p>
-    </a>
-    <a class="item">
-        <h4 class="ui header">Eurofurence -2</h4>
-        <p></p>
-    </a>
-    <a class="item">
-        <h4 class="ui header">Eurofurence -3</h4>
-        <p></p>
-    </a>
+    <!-- Top Left Corner -->
+    <div style="background-color: rgb(0,89,83); position: absolute; left: 208px; top: 0; width:226px; height:47px;">
     </div>
+
+    <!-- Year selection -->
+    <div style="position: absolute; left: 208px; top: 47px; width: 226px; height: calc(100vh - 47px); border-right: 1px solid lightgray; overflow-y: auto; overflow-x: hidden;">
+        <div class="ui attached vertical menu">
+            <a class="item">
+                <h4 class="ui header">Eurofurence 23</h4>
+                <p>Ancient Egypt</p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 22</h4>
+                <p>Back to the 80s</p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 21</h4>
+                <p>Greenhouse World</p>
+            </a>
+            <a class="active item">
+                <h4 class="ui header">Eurofurence 20</h4>
+                <p>Crime Scene Berlin</p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 19</h4>
+                <p><i>TODO: Add Con Theme</i></p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 18</h4>
+                <p><i>TODO: Add Con Theme</i></p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 17</h4>
+                <p><i>TODO: Add Con Theme</i></p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 16</h4>
+                <p><i>TODO: Add Con Theme</i></p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 15</h4>
+                <p><i>TODO: Add Con Theme</i></p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 14</h4>
+                <p><i>TODO: Add Con Theme</i></p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 13</h4>
+                <p><i>TODO: Add Con Theme</i></p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 12</h4>
+                <p><i>TODO: Add Con Theme</i></p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 11</h4>
+                <p><i>TODO: Add Con Theme</i></p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 10</h4>
+                <p><i>TODO: Add Con Theme</i></p>
+            </a>
+            <a class="item">
+                <h4 class="ui header">Eurofurence 9</h4>
+                <p><i>TODO: Add Con Theme</i></p>
+            </a>
+        </div>
     </div>
+
+    <!-- Content Selection -->
+    <div style="position: absolute; left: 434px; top: 5px; height: calc(100vh - 5px); right: 0;">
+        <div class="ui three item attached tabs menu">
+        
+          <a class="item" data-tab="definition">Conbook</a>
+
+          <div class="ui dropdown item">
+              Daily Eurofurence <i class="dropdown icon"></i>
+              <div class="menu">
+                <a class="item active" data-tab="examples">Issue 24, Thursday</a>
+                <a class="item" data-tab="examples">Issue 25, Friday</a>
+                <a class="item" data-tab="examples">Issue 26, Saturday</a>
+                <a class="item" data-tab="examples">Issue 27, Sunday</a>
+              </div>
+          </div>
+        
+          <a class="item" data-tab="settings">Website</a>
+          
+        
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div style="position: absolute; left: 434px; top: 47px; height: calc(100vh - 47px); right: 0;">
+        <embed type="application/pdf" src="https://daily.eurofurence.org/files/The_Daily_Eurofurence_EF20_Thursday.pdf" style="width: 100%; height: 100%;" />
+    </div>
+    <script type="application/javascript">
+        $('.ui.dropdown').dropdown();
+    </script>
   </body>
 </html>
