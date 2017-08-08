@@ -14,25 +14,20 @@
     <link href="style.css" rel="stylesheet">
   </head>
 
-  <body style="margin: 0; padding: 0; overflow: hidden;">
+  <body>
     <!-- Archive Banner -->
-    <div style="background-color: rgb(0,89,83); position: absolute; left: 40px; width:168px; height: 100%;">
-      <img src="https://www.eurofurence.de/picture/layout/ef-logo-web.png" style="position: absolute; bottom: 20px;" />
-      <div style="color: white; font-family:'IrisUPC', sans-serif; font-size: 62px; width: calc(100vh - 325px); transform: rotate(-90deg) translateX(-100vh) translateX(340px) translateY(125px); transform-origin: left top 0;">
-        Eurofurence Archive
-      </div>
+    <div class="banner-container">
+        <img src="https://www.eurofurence.de/picture/layout/ef-logo-web.png" />
+        <div class="logo">
+            Eurofurence Archive
+        </div>
     </div>
 
     <!-- Top Divider -->
-    <div style="background-color: rgb(0,89,83); position: absolute; left: 208px; top: 0; width:calc(100vw - 208px); height:5px;">
-    </div>
-
-    <!-- Top Left Corner -->
-    <div style="background-color: rgb(0,89,83); position: absolute; left: 208px; top: 0; width:226px; height:47px;">
-    </div>
+        <div class="top-divider"></div> 
 
     <!-- Year selection -->
-    <div class="ui attached vertical menu" style="margin-left: 207px; padding-top: 45px; width: 228px;">
+    <div class="ui attached vertical menu year-selection">
         <a class="item">
             <h4 class="ui header">Eurofurence 23</h4>
             <p>Ancient Egypt</p>
@@ -41,8 +36,7 @@
             <h4 class="ui header">Eurofurence 22</h4>
             <p style="margin-bottom: 0;">Back to the 80s</p>
             <div class="ui attached compact menu" style="opacity: 0; box-shadow: none; min-height: 0; max-width: initial; width: 228px;">
-                <a class="item" data-tab="definition" style="border-right: 1px solid lightgray;">Conbook</a>
-                <div class="ui dropdown item" style=" border-right: 1px solid lightgray;" data-tab="definition">Daily
+                <div class="ui compact dropdown item" style=" border-right: 1px solid lightgray;" data-tab="definition">Daily
                     <div class="menu">
                         <a class="item active" data-tab="examples">Issue 24, Thursday</a>
                         <a class="item" data-tab="examples">Issue 25, Friday</a>
@@ -50,6 +44,7 @@
                         <a class="item" data-tab="examples">Issue 27, Sunday</a>
                     </div>
                 </div>
+                <a class="item" data-tab="definition" style="border-right: 1px solid lightgray;">Conbook</a>
                 <a class="item" data-tab="settings">Website</a>
             </div>
         </div>
@@ -57,15 +52,15 @@
             <h4 class="ui header">Eurofurence 21</h4>
             <p style="margin-bottom: 0;">Greenhouse World</p>
             <div class="ui attached compact menu" style="box-shadow: none; min-height: 0; max-width: initial; width: 228px;">
-                <a class="active item" data-tab="definition" style="border-right: 1px solid lightgray;">Conbook</a>
                 <div class="ui dropdown item" style=" border-right: 1px solid lightgray;" data-tab="definition">Daily
-                    <div class="menu">
+                    <div class="menu" style="    margin-left: -61px;    margin-top: 24px;">
                         <a class="item active" data-tab="examples">Issue 24, Thursday</a>
                         <a class="item" data-tab="examples">Issue 25, Friday</a>
                         <a class="item" data-tab="examples">Issue 26, Saturday</a>
                         <a class="item" data-tab="examples">Issue 27, Sunday</a>
                     </div>
                 </div>
+                <a class="active item" data-tab="definition" style="border-right: 1px solid lightgray;">Conbook</a>
                 <a class="item" data-tab="settings">Website</a>
             </div>
         </div>
@@ -133,30 +128,8 @@
         </a>
     </div>
 
-    <!-- Content Selection -->
-    <div style="position: absolute; left: 434px; top: 5px; height: calc(100vh - 5px); right: 0;">
-        <div class="ui three item attached tabs menu">
-        
-          <a class="item" data-tab="definition">Conbook</a>
-
-          <div class="ui dropdown item">
-              Daily Eurofurence <i class="dropdown icon"></i>
-              <div class="menu">
-                <a class="item active" data-tab="examples">Issue 24, Thursday</a>
-                <a class="item" data-tab="examples">Issue 25, Friday</a>
-                <a class="item" data-tab="examples">Issue 26, Saturday</a>
-                <a class="item" data-tab="examples">Issue 27, Sunday</a>
-              </div>
-          </div>
-        
-          <a class="item" data-tab="settings">Website</a>
-          
-        
-      </div>
-    </div>
-
     <!-- Content -->
-    <div style="position: absolute; left: 434px; top: 47px; height: calc(100vh - 47px); right: 0;">
+    <div class="main-content">
         <embed type="application/pdf" src="https://daily.eurofurence.org/files/The_Daily_Eurofurence_EF20_Thursday.pdf" style="width: 100%; height: 100%;" />
     </div>
     <script type="application/javascript">
