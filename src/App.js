@@ -5,6 +5,7 @@ import './App.css';
 
 import ContentSelection from './contentSelection';
 import Content from './content';
+import MobileView from './mobileView';
 
 class App extends Component {
   constructor(props) {
@@ -28,21 +29,26 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="banner-container">
-          <img src={logo} alt="Logo" />
-          <div className="logo">
-            Eurofurence Archive
+        <div className="archive-desktop">
+          <div className="banner-container">
+            <img src={logo} alt="Logo" />
+            <div className="logo">
+              Eurofurence Archive
+            </div>
           </div>
-        </div>
-  
-        <div className="top-divider"></div>
+    
+          <div className="top-divider"></div>
 
-        <Route path="/:year?/:type?/:issue?" render={({match}) =>
-          <div>
-            <ContentSelection data={this.state.data} match={match} />
-            <Content data={this.state.data} match={match} />
-          </div>
-        } />
+          <Route path="/:year?/:type?/:issue?" render={({match}) =>
+            <div>
+              <ContentSelection data={this.state.data} match={match} />
+              <Content data={this.state.data} match={match} />
+            </div>
+          } />
+        </div>
+        <div className="archive-mobile">
+          <MobileView data={this.state.data} />
+        </div>
       </div>
     );
   }

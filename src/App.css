@@ -29,3 +29,25 @@
   width:calc(100vw - 40px);
   height:5px;
 }
+
+.archive-mobile {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  body {
+    overflow: auto;
+  }
+
+  .archive-desktop {
+    display: none;
+  }
+
+  .archive-mobile {
+    display: block;
+  }
+
+  .archive-mobile > div > div {
+    margin-bottom: 2em;
+  }
+}

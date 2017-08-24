@@ -2,6 +2,8 @@
 
 This project contains the Eurofurence Archive page providing Conbooks, Websites and Daily Eurofurence issues of past conventions.
 
+![Screenshot](screenshot.jpg)
+
 ## Usage
 
 To host this page, you need a static webserver serving the contents of the `build` directory.
