@@ -4,6 +4,14 @@ import {Container, Header, Segment, Grid, Card, Icon} from 'semantic-ui-react';
 import "./Content.css";
 
 class Content extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      newBuffer: false
+    };
+  }
+
   getUrl = ({year, type, issue}) => {
     const entry = this.props.data.filter(({title}) => title === year)[0];
 
@@ -30,15 +38,34 @@ class Content extends Component {
     }
   };
 
+  componentWillReceiveProps(newProps) {
+    this.setState({
+      newBuffer: true
+    });
+  }
+
   render() {
     if(this.props.data && this.props.match.params.year) {
-      const url = this.getUrl(this.props.match.params);
 
-      return (
-        <div className="main-content">
-          <embed type="application/pdf" src={url} />
-        </div>
-      );
+      if(this.state.newBuffer) {
+        // This hack is needed because Edge does not handle updating the src attribute
+        // of an embed element well. So we remove it to force react to create a new one
+        // Thanks Microsoft! :/
+        window.setTimeout(() => {
+          this.setState({
+            newBuffer: false
+          });
+        }, 50);
+        return <div></div>;
+      } else {
+        const url = this.getUrl(this.props.match.params);
+  
+        return (
+          <div className="main-content">
+            <embed type="application/pdf" src={url}/>
+          </div>
+        );
+      }
     } else {
       return (
         <div className="main-content welcome">
