@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Container, Header, Segment, Grid, Card, Icon} from 'semantic-ui-react';
 
 import "./Content.css";
 
@@ -14,8 +15,23 @@ class Content extends Component {
     }
   }
 
+  random = type => evt => {
+    const candidates = this.props.data.filter(entry => entry[type]);
+    const entry = candidates[~~(Math.random() * candidates.length)];
+    
+    if(type === 'website') {
+      const newTab = window.open(entry.website, '_blank');
+      newTab.focus();
+    } else if(type === 'conbook') {
+      window.location.hash = entry.title + '/conbook';
+    } else if(type === 'daily') {
+      const daily = entry.daily[~~(Math.random() * entry.daily.length)];
+      window.location.hash = entry.title + '/daily/' + daily.title;
+    }
+  };
+
   render() {
-    if(this.props.data) {
+    if(this.props.data && this.props.match.params.year) {
       const url = this.getUrl(this.props.match.params);
 
       return (
@@ -23,9 +39,52 @@ class Content extends Component {
           <embed type="application/pdf" src={url} />
         </div>
       );
+    } else {
+      return (
+        <div className="main-content welcome">
+          <Container text>
+            <Header as="h1" textAlign="center" color="grey">Welcome to the Eurofurence Archive!</Header>
+            <Segment>
+              Our convention reaches back over 20 years in tradition and history already. Take a look at the previous convention websites and feel the spirit of our history for yourself! See what has been, how we grew in size and events. Enjoy the nostalgic feeling in case you have been amongst us already or let you inspire what awaits you, should you decide to join the fun this year!
+            </Segment>
+            <Grid columns='3'>
+              <Grid.Row textAlign="center">
+                <Grid.Column>
+                  <Card onClick={this.random('daily')}>
+                    <Card.Content>
+                      <Icon name='newspaper' size='huge' />
+                    </Card.Content>
+                    <Card.Content>
+                      Check out a random Daily Eurofurence Issue
+                    </Card.Content>
+                  </Card>
+                </Grid.Column>
+                <Grid.Column>
+                  <Card onClick={this.random('conbook')}>
+                    <Card.Content>
+                      <Icon name='book' size='huge' />
+                    </Card.Content>
+                    <Card.Content>
+                      Check out a random Eurofurence Conbook
+                    </Card.Content>
+                  </Card>
+                </Grid.Column>
+                <Grid.Column>
+                  <Card onClick={this.random('website')}>
+                    <Card.Content>
+                      <Icon name='desktop' size='huge' />
+                    </Card.Content>
+                    <Card.Content>
+                      Check out a random Eurofurence Website
+                    </Card.Content>
+                  </Card>
+                </Grid.Column>
+              </Grid.Row>
+            </Grid>
+          </Container>
+        </div>
+      );
     }
-
-    return null;
   }
 }
 

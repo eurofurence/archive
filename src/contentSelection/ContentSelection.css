@@ -18,6 +18,11 @@
   display: none;
 }
 
+.year-selection .ui.attached.menu.archive-inline-menu .menu {
+  margin-left: -61px;
+  margin-top: 23px;
+}
+
 .ui.attached.menu.archive-inline-menu .item {
   border-right: 1px solid lightgray;
 }

@@ -45,7 +45,7 @@ class YearEntry extends Component {
           (isActive || this.state.hovered) &&
           <Menu attached compact className="archive-inline-menu">
             <Dropdown disabled={!this.props.daily} item text="Daily" className={isActive && this.props.match.params.type === 'daily' ? 'active' : ''}>
-              <Dropdown.Menu style={{marginLeft: "-61px", marginTop: "24px"}}>
+              <Dropdown.Menu>
                 {this.props.daily && this.props.daily.map((issue, idx) => 
                   <Dropdown.Item 
                     key={idx} 
