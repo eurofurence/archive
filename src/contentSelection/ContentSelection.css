@@ -1,0 +1,50 @@
+.year-selection {
+  margin-left: 207px !important;
+  margin-top: 5px !important;
+  width: 238px !important;
+  height: calc(100vh - 5px) !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.year-selection .ui.attached.menu.archive-inline-menu {
+  box-shadow: none;
+  min-height: 0;
+  max-width: initial;
+  width: 238px;
+}
+
+.year-selection .ui.attached.menu.archive-inline-menu .dropdown.icon {
+  display: none;
+}
+
+.ui.attached.menu.archive-inline-menu .item {
+  border-right: 1px solid lightgray;
+}
+
+.ui.attached.menu.archive-inline-menu .item:last-child {
+  border-right: none;
+}
+
+.ui.vertical.menu .menu .item.archive-disabled-conbook {
+  color: rgba(40, 40, 40, .25);
+}
+
+.ui.vertical.menu .menu .item.archive-disabled-conbook {
+  color: rgba(40, 40, 40, .25);
+}
+
+.ui.vertical.menu .item.year-entry {
+  padding-bottom: 0;
+  height: 95px;
+}
+
+.ui.vertical.menu .item.year-entry-no-theme {
+  padding-bottom: 0;
+  height: 76px;
+}
+
+.ui.vertical.menu .item.archive-entry p {
+  margin-bottom: 0;
+  white-space: nowrap;
+}
