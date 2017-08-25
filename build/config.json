@@ -20,7 +20,7 @@
         "url": "https://www.eurofurence.org/EF24/pages/daily/dailyEF23_20aug17.pdf"
       }
     ],
-    "conbook": "https://eurofurence.org/files/EF23_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 23 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF23/"
   },
   {
@@ -44,7 +44,7 @@
         "url": "https://daily.eurofurence.org/files/ef22_Sunday_web.pdf"
       }
     ],
-    "conbook": "https://eurofurence.org/files/EF22_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 22 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF22/"
   },
   {
@@ -68,7 +68,7 @@
         "url": "https://daily.eurofurence.org/files/The_Daily_Eurofurence_EF21_Sunday.pdf"
       }
     ],
-    "conbook": "https://eurofurence.org/files/EF21_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 21 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF21/"
   },
   {
@@ -92,7 +92,6 @@
         "url": "https://daily.eurofurence.org/files/The_Daily_Eurofurence_EF20_Sunday.pdf"
       }
     ],
-    "conbook": "https://eurofurence.org/files/EF20_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF20/"
   },
   {
@@ -116,7 +115,7 @@
         "url": "https://daily.eurofurence.org/files/EF19_Sunday_RC2_lowres.pdf"
       }
     ],
-    "conbook": "https://eurofurence.org/files/EF19_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 19 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF19/"
   },
   {
@@ -140,7 +139,7 @@
         "url": "https://daily.eurofurence.org/files/ef18_sunday_web.pdf"
       }
     ],
-    "conbook": "https://eurofurence.org/files/EF18_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 18 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF18/"
   },
   {
@@ -168,7 +167,7 @@
         "url": "https://daily.eurofurence.org/files/pdf/EF17/EF17_Sunday_web.pdf"
       }
     ],
-    "conbook": "https://eurofurence.org/files/EF17_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 17 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF17/"
   },
   {
@@ -196,7 +195,7 @@
         "url": "https://daily.eurofurence.org/files/pdf/EF16/EF16-The_Daily_Eurofurence-10-Sunday.pdf"
       }
     ],
-    "conbook": "https://eurofurence.org/files/EF16_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 16 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF16/"
   },
   {
@@ -224,74 +223,74 @@
         "url": "https://daily.eurofurence.org/files/pdf/EF15/EF15-The_Daily_Eurofurence-05-Sunday.pdf"
       }
     ],
-    "conbook": "https://eurofurence.org/files/EF15_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 15 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF15/"
   },
   {
     "title": "Eurofurence 14",
     "theme": "From Dusk Till Dawn",
-    "conbook": "https://eurofurence.org/files/EF14_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 14 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF14/"
   },
   {
     "title": "Eurofurence 13",
     "theme": "The Unlucky Thirteen",
-    "conbook": "https://eurofurence.org/files/EF13_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 13 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF13/"
   },
   {
     "title": "Eurofurence 12",
     "theme": "The Hounds of Blackwhite Castle",
-    "conbook": "https://eurofurence.org/files/EF12_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 12 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF12/"
   },
   {
     "title": "Eurofurence 11",
     "theme": "Songs of the Old Ages",
-    "conbook": "https://eurofurence.org/files/EF11_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 11 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF11/"
   },
   {
     "title": "Eurofurence 10",
     "theme": "EFX - The Movie!",
-    "conbook": "https://eurofurence.org/files/EF10_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 10 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF10/"
   },
   {
     "title": "Eurofurence 9",
     "theme": "Cunning little Vixens",
-    "conbook": "https://eurofurence.org/files/EF9_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 9 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF9/"
   },
   {
     "title": "Eurofurence 8",
     "theme": "The F.I.A.",
-    "conbook": "https://eurofurence.org/files/EF8_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 8 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF8/"
   },
   {
     "title": "Eurofurence 7",
-    "conbook": "https://eurofurence.org/files/EF7_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 7 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF7/"
   },
   {
     "title": "Eurofurence 6",
-    "conbook": "https://eurofurence.org/files/EF6_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 6 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF6/"
   },
   {
     "title": "Eurofurence 5",
-    "conbook": "https://eurofurence.org/files/EF5_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 5 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF5/"
   },
   {
     "title": "Eurofurence 4",
-    "conbook": "https://eurofurence.org/files/EF4_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 4 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF4/"
   },
   {
     "title": "Eurofurence 3",
-    "conbook": "https://eurofurence.org/files/EF3_Conbook.pdf",
+    "conbook": "https://archive.eurofurence.org/conbooks/EF 3 Conbook.pdf",
     "website": "https://www.eurofurence.org/EF3/index2.html"
   },
   {

@@ -9,6 +9,7 @@
 .banner-container img {
   position: absolute;
   bottom: 20px;
+  cursor: pointer;
 }
 
 .banner-container .logo {

@@ -26,12 +26,16 @@ class App extends Component {
       });
   }
 
+  backToStart = evt => {
+    window.location.hash = '';
+  }
+
   render() {
     return (
       <div>
         <div className="archive-desktop">
           <div className="banner-container">
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Logo" onClick={this.backToStart} />
             <div className="logo">
               Eurofurence Archive
             </div>
