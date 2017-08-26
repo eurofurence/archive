@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container, Header, Segment, Grid, Card, Icon} from 'semantic-ui-react';
+import {Container, Header, Segment, Grid, Card, Icon, Button} from 'semantic-ui-react';
 
 import "./Content.css";
 
@@ -44,6 +44,10 @@ class Content extends Component {
     });
   }
 
+  getReadableType({type, year, issue}) {
+    return (type === 'daily' ? ('the Daily Eurofurence ' + issue) : 'the conbook') + ' of ' + year;
+  }
+
   render() {
     if(this.props.data && this.props.match.params.year) {
 
@@ -62,7 +66,15 @@ class Content extends Component {
   
         return (
           <div className="main-content">
-            <embed type="application/pdf" src={url}/>
+            <object data={url} type="application/pdf">
+              <Container text className="error-hint">
+                <Header as="h1" textAlign="center" color="grey">Almost there!</Header>
+                <Segment textAlign='center'>
+                  <p>You are about to download {this.getReadableType(this.props.match.params)}. To view this document, you need a PDF viewer, e.g. the <a href="https://get.adobe.com/reader/" target="_blank" rel="noopener noreferrer">Adobe Reader</a>.</p>
+                  <Button positive size="big" as="a" href={url} >Download Now!</Button>
+                </Segment>
+              </Container>
+            </object>
           </div>
         );
       }
