@@ -49,8 +49,10 @@ class YearEntry extends Component {
                 {this.props.daily && this.props.daily.map((issue, idx) => 
                   <Dropdown.Item 
                     key={idx} 
+                    as='a'
                     active={issue.title === this.props.match.params.issue} 
                     onClick={this.select('daily', issue.title)}
+                    href={issue.url}
                   >
                     {issue.title}
                   </Dropdown.Item>
@@ -59,11 +61,11 @@ class YearEntry extends Component {
             </Dropdown>
             {
               this.props.conbook ?
-                <Menu.Item active={isActive && this.props.match.params.type === 'conbook'} onClick={this.select('conbook')}>Conbook</Menu.Item>
+                <Menu.Item active={isActive && this.props.match.params.type === 'conbook'} onClick={this.select('conbook')} href={this.props.conbook}>Conbook</Menu.Item>
               :
               <Menu.Item className="archive-disabled-conbook">Conbook</Menu.Item>
             }
-            <Menu.Item onClick={this.openWebsite}>Website</Menu.Item>
+            <Menu.Item onClick={this.openWebsite} href={this.props.website}>Website</Menu.Item>
           </Menu>
         }
       </Menu.Item>
