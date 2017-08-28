@@ -31,10 +31,10 @@ class Content extends Component {
       const newTab = window.open(entry.website, '_blank');
       newTab.focus();
     } else if(type === 'conbook') {
-      window.location.hash = entry.title + '/conbook';
+      window.location.hash = encodeURI(entry.title) + '/conbook';
     } else if(type === 'daily') {
       const daily = entry.daily[~~(Math.random() * entry.daily.length)];
-      window.location.hash = entry.title + '/daily/' + daily.title;
+      window.location.hash = encodeURI(entry.title) + '/daily/' + encodeURI(daily.title);
     }
   };
 

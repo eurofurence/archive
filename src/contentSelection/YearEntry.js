@@ -13,7 +13,7 @@ class YearEntry extends Component {
 
   select = (type, subtype) => evt => {
     evt.preventDefault();
-    window.location.hash = this.props.title + '/' + type + (subtype ? '/' + subtype : '');
+    window.location.hash = encodeURI(this.props.title) + '/' + encodeURI(type) + (subtype ? '/' + encodeURI(subtype) : '');
   }
 
   openWebsite = evt => {
