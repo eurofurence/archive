@@ -8,3 +8,11 @@ body {
   font-family: 'IrisUPC';
   src: url('upcil.ttf');
 }
+
+.noscript.main-content.welcome {
+  position: inherit;
+}
+
+.noscript.main-content.welcome .ui.card {
+  width: 100%;
+}
