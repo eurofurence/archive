@@ -42,11 +42,15 @@
 .ui.vertical.menu .item.year-entry {
   padding-bottom: 0;
   height: 95px;
+
+  user-select: auto;
 }
 
 .ui.vertical.menu .item.year-entry-no-theme {
   padding-bottom: 0;
   height: 76px;
+
+  user-select: auto;
 }
 
 .ui.vertical.menu .item.archive-entry p {
