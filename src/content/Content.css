@@ -4,6 +4,7 @@
   top: 5px;
   height: calc(100vh - 5px);
   right: 0;
+  padding-top: 2em;
 }
 
 .main-content object {

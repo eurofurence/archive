@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container, Header, Segment, Grid, Card, Icon, Button} from 'semantic-ui-react';
+import {Container, Header, Segment, Grid, Card, Icon, Button, Statistic, List} from 'semantic-ui-react';
 
 import "./Content.css";
 
@@ -50,34 +50,109 @@ class Content extends Component {
 
   render() {
     if(this.props.data && this.props.match.params.year) {
+      const entry = this.props.data.filter(({title}) => title === this.props.match.params.year)[0];
+      console.log('entry', entry);
+      return (
+        <div className="main-content">
+          <Container text>
+            <Header as="h1" textAlign="center" color="grey">{entry.title}</Header>
+            <Header as="h2" textAlign="center">{entry.theme}</Header>
 
-      if(this.state.newBuffer) {
-        // This hack is needed because Edge does not handle updating the src attribute
-        // of an embed element well. So we remove it to force react to create a new one
-        // Thanks Microsoft! :/
-        window.setTimeout(() => {
-          this.setState({
-            newBuffer: false
-          });
-        }, 50);
-        return <div></div>;
-      } else {
-        const url = this.getUrl(this.props.match.params);
-  
-        return (
-          <div className="main-content">
-            <object data={url} type="application/pdf">
-              <Container text className="error-hint">
-                <Header as="h1" textAlign="center" color="grey">Almost there!</Header>
-                <Segment textAlign='center'>
-                  <p>You are about to download {this.getReadableType(this.props.match.params)}. To view this document, you need a PDF viewer, e.g. the <a href="https://get.adobe.com/reader/" target="_blank" rel="noopener noreferrer">Adobe Reader</a>.</p>
-                  <Button positive size="big" as="a" href={url} >Download Now!</Button>
-                </Segment>
-              </Container>
-            </object>
-          </div>
-        );
-      }
+            <Statistic.Group widths="three" style={{marginTop: '2em'}}>
+              <Statistic label='Visitors' value='2,271' />
+              <Statistic label='Fursuiters' value='814' />
+              <Statistic label='Events' value='83' />
+            </Statistic.Group>
+
+            <Segment>
+              <p>The following resources are available for you to enjoy:</p>
+              <List relaxed size='large'>
+              <List.Item>
+                  <List.Icon name='desktop' />
+                  <List.Content>
+                    <List.Header as='a'>Website</List.Header>
+                  </List.Content>
+                </List.Item>
+                <List.Item>
+                  <List.Icon name='book' />
+                  <List.Content>
+                    <List.Header as='a'>Conbook</List.Header>
+                  </List.Content>
+                </List.Item>
+                <List.Item>
+                  <List.Icon name='newspaper' />
+                  <List.Content>
+                    <List.Header>Daily Eurofurence</List.Header>
+                    <List.List>
+                      <List.Item>
+                        <List.Content>
+                          <List.Header as='a'>Thursday</List.Header>
+                        </List.Content>
+                      </List.Item>
+                      <List.Item>
+                        <List.Content>
+                          <List.Header as='a'>Friday</List.Header>
+                        </List.Content>
+                      </List.Item>
+                      <List.Item>
+                        <List.Content>
+                          <List.Header as='a'>Saturday</List.Header>
+                        </List.Content>
+                      </List.Item>
+                      <List.Item>
+                        <List.Content>
+                          <List.Header as='a'>Sunday</List.Header>
+                        </List.Content>
+                      </List.Item>
+                    </List.List>
+                  </List.Content>
+                </List.Item>
+                <List.Item>
+                  <List.Icon name='video' />
+                  <List.Content>
+                    <List.Header>Videos</List.Header>
+                    <List.List>
+                      <List.Item>
+                        <List.Content>
+                          <List.Header as='a'>Eurofurence 21 (2015) - Part 1/2</List.Header>
+                        </List.Content>
+                      </List.Item>
+                      <List.Item>
+                        <List.Content>
+                          <List.Header as='a'>Eurofurence 21 (2015) - Part 2/2</List.Header>
+                        </List.Content>
+                      </List.Item>
+                      <List.Item>
+                        <List.Content>
+                          <List.Header as='a'>The Anatomy of a Pawpet Show</List.Header>
+                        </List.Content>
+                      </List.Item>
+                    </List.List>
+                  </List.Content>
+                </List.Item>
+                <List.Item>
+                  <List.Icon name='photo' />
+                  <List.Content>
+                    <List.Header>Photos</List.Header>
+                    <List.List>
+                      <List.Item>
+                        <List.Content>
+                          <List.Header as='a'>Group Photo</List.Header>
+                        </List.Content>
+                      </List.Item>
+                      <List.Item>
+                        <List.Content>
+                          <List.Header as='a'>Fursuit Photo Gallery</List.Header>
+                        </List.Content>
+                      </List.Item>
+                    </List.List>
+                  </List.Content>
+                </List.Item>
+              </List>
+            </Segment>
+          </Container>
+        </div>
+      );
     } else {
       return (
         <div className="main-content welcome">

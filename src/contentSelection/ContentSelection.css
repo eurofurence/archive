@@ -14,45 +14,6 @@
   width: 238px;
 }
 
-.year-selection .ui.attached.menu.archive-inline-menu .dropdown.icon {
-  display: none;
-}
-
-.year-selection .ui.attached.menu.archive-inline-menu .menu {
-  margin-left: -61px;
-  margin-top: 23px;
-}
-
-.ui.attached.menu.archive-inline-menu .item {
-  border-right: 1px solid lightgray;
-}
-
-.ui.attached.menu.archive-inline-menu .item:last-child {
-  border-right: none;
-}
-
-.ui.vertical.menu .menu .item.archive-disabled-conbook {
-  color: rgba(40, 40, 40, .25);
-}
-
-.ui.vertical.menu .menu .item.archive-disabled-conbook {
-  color: rgba(40, 40, 40, .25);
-}
-
-.ui.vertical.menu .item.year-entry {
-  padding-bottom: 0;
-  height: 95px;
-
-  user-select: auto;
-}
-
-.ui.vertical.menu .item.year-entry-no-theme {
-  padding-bottom: 0;
-  height: 76px;
-
-  user-select: auto;
-}
-
 .ui.vertical.menu .item.archive-entry p {
   margin-bottom: 0;
   white-space: nowrap;
