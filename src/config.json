@@ -5,26 +5,26 @@
     "daily": [
       {
         "title": "Issue 36, Thursday",
-        "url": "daily/dailyEF23_17aug17.pdf"
+        "url": "/daily/dailyEF23_17aug17.pdf"
       },
       {
         "title": "Issue 37, Friday",
-        "url": "daily/dailyEF23_18aug17.pdf"
+        "url": "/daily/dailyEF23_18aug17.pdf"
       },
       {
         "title": "Issue 38, Saturday",
-        "url": "daily/dailyEF23_19aug17.pdf"
+        "url": "/daily/dailyEF23_19aug17.pdf"
       },
       {
         "title": "Issue 39, Sunday",
-        "url": "daily/dailyEF23_20aug17.pdf"
+        "url": "/daily/dailyEF23_20aug17.pdf"
       }
     ],
     "statistics": [],
     "videos": [],
     "photos": [],
     "misc": [],
-    "conbook": "conbooks/EF_23_Conbook.pdf",
+    "conbook": "/conbooks/EF_23_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF23/"
   },
   {
@@ -33,19 +33,19 @@
     "daily": [
       {
         "title": "Issue 32, Thursday",
-        "url": "daily/ef22_Thursday_web.pdf"
+        "url": "/daily/ef22_Thursday_web.pdf"
       },
       {
         "title": "Issue 33, Friday",
-        "url": "daily/ef22_Friday_web.pdf"
+        "url": "/daily/ef22_Friday_web.pdf"
       },
       {
         "title": "Issue 34, Saturday",
-        "url": "daily/ef22_Saturday_web.pdf"
+        "url": "/daily/ef22_Saturday_web.pdf"
       },
       {
         "title": "Issue 35, Sunday",
-        "url": "daily/ef22_Sunday_web.pdf"
+        "url": "/daily/ef22_Sunday_web.pdf"
       }
     ],
     "videos": [
@@ -62,7 +62,7 @@
         "url": "https://vimeo.com/190731922"
       }
     ],
-    "conbook": "conbooks/EF_22_Conbook.pdf",
+    "conbook": "/conbooks/EF_22_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF22/"
   },
   {
@@ -71,19 +71,19 @@
     "daily": [
       {
         "title": "Issue 28, Thursday",
-        "url": "daily/The_Daily_Eurofurence_EF21_Thursday.pdf"
+        "url": "/daily/The_Daily_Eurofurence_EF21_Thursday.pdf"
       },
       {
         "title": "Issue 29, Friday",
-        "url": "daily/The_Daily_Eurofurence_EF21_Friday.pdf"
+        "url": "/daily/The_Daily_Eurofurence_EF21_Friday.pdf"
       },
       {
         "title": "Issue 30, Saturday",
-        "url": "daily/The_Daily_Eurofurence_EF21_Saturday.pdf"
+        "url": "/daily/The_Daily_Eurofurence_EF21_Saturday.pdf"
       },
       {
         "title": "Issue 31, Sunday",
-        "url": "daily/The_Daily_Eurofurence_EF21_Sunday.pdf"
+        "url": "/daily/The_Daily_Eurofurence_EF21_Sunday.pdf"
       }
     ],
     "videos": [
@@ -100,7 +100,7 @@
         "url": "https://vimeo.com/218944499"
       }
     ],
-    "conbook": "conbooks/EF_21_Conbook.pdf",
+    "conbook": "/conbooks/EF_21_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF21/"
   },
   {
@@ -109,19 +109,19 @@
     "daily": [
       {
         "title": "Issue 24, Thursday",
-        "url": "daily/The_Daily_Eurofurence_EF20_Thursday.pdf"
+        "url": "/daily/The_Daily_Eurofurence_EF20_Thursday.pdf"
       },
       {
         "title": "Issue 25, Friday",
-        "url": "daily/The_Daily_Eurofurence_EF20_Friday.pdf"
+        "url": "/daily/The_Daily_Eurofurence_EF20_Friday.pdf"
       },
       {
         "title": "Issue 26, Saturday",
-        "url": "daily/The_Daily_Eurofurence_EF20_Saturday.pdf"
+        "url": "/daily/The_Daily_Eurofurence_EF20_Saturday.pdf"
       },
       {
         "title": "Issue 27, Sunday",
-        "url": "daily/The_Daily_Eurofurence_EF20_Sunday.pdf"
+        "url": "/daily/The_Daily_Eurofurence_EF20_Sunday.pdf"
       }
     ],
     "videos": [
@@ -150,19 +150,19 @@
     "daily": [
       {
         "title": "Issue 20, Thursday",
-        "url": "daily/EF19_Thursday_RC2_lowres.pdf"
+        "url": "/daily/EF19_Thursday_RC2_lowres.pdf"
       },
       {
         "title": "Issue 21, Friday",
-        "url": "daily/EF19_Friday_RC1_lowres.pdf"
+        "url": "/daily/EF19_Friday_RC1_lowres.pdf"
       },
       {
         "title": "Issue 22, Saturday",
-        "url": "daily/EF19_Saturday_RC1_lowres.pdf"
+        "url": "/daily/EF19_Saturday_RC1_lowres.pdf"
       },
       {
         "title": "Issue 23, Sunday",
-        "url": "daily/EF19_Sunday_RC2_lowres.pdf"
+        "url": "/daily/EF19_Sunday_RC2_lowres.pdf"
       }
     ],
     "videos": [
@@ -175,7 +175,7 @@
         "url": "https://vimeo.com/116841159"
       }
     ],
-    "conbook": "conbooks/EF_19_Conbook.pdf",
+    "conbook": "/conbooks/EF_19_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF19/"
   },
   {
@@ -184,19 +184,19 @@
     "daily": [
       {
         "title": "Issue 16, Thursday",
-        "url": "daily/ef18_thursday_fin_web.pdf"
+        "url": "/daily/ef18_thursday_fin_web.pdf"
       },
       {
         "title": "Issue 17, Friday",
-        "url": "daily/ef18_friday_wip_web.pdf"
+        "url": "/daily/ef18_friday_wip_web.pdf"
       },
       {
         "title": "Issue 18, Saturday",
-        "url": "daily/ef18_saturday_web.pdf"
+        "url": "/daily/ef18_saturday_web.pdf"
       },
       {
         "title": "Issue 19, Sunday",
-        "url": "daily/ef18_sunday_web.pdf"
+        "url": "/daily/ef18_sunday_web.pdf"
       }
     ],
     "videos": [
@@ -221,7 +221,7 @@
         "url": "https://vimeo.com/117698368"
       }
     ],
-    "conbook": "conbooks/EF_18_Conbook.pdf",
+    "conbook": "/conbooks/EF_18_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF18/"
   },
   {
@@ -230,23 +230,23 @@
     "daily": [
       {
         "title": "Issue 11, Wednesday",
-        "url": "daily/EF17_Wednesday_web.pdf"
+        "url": "/daily/EF17_Wednesday_web.pdf"
       },
       {
         "title": "Issue 12, Thursday",
-        "url": "daily/EF17_Thursday_web.pdf"
+        "url": "/daily/EF17_Thursday_web.pdf"
       },
       {
         "title": "Issue 13, Friday",
-        "url": "daily/EF17_Friday_web.pdf"
+        "url": "/daily/EF17_Friday_web.pdf"
       },
       {
         "title": "Issue 14, Saturday",
-        "url": "daily/EF17_Saturday_web.pdf"
+        "url": "/daily/EF17_Saturday_web.pdf"
       },
       {
         "title": "Issue 15, Sunday",
-        "url": "daily/EF17_Sunday_web.pdf"
+        "url": "/daily/EF17_Sunday_web.pdf"
       }
     ],
     "videos": [
@@ -255,7 +255,7 @@
         "url": "https://vimeo.com/115575271"
       }
     ],
-    "conbook": "conbooks/EF_17_Conbook.pdf",
+    "conbook": "/conbooks/EF_17_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF17/"
   },
   {
@@ -264,23 +264,23 @@
     "daily": [
       {
         "title": "Issue 6, Wednesday",
-        "url": "daily/EF16-The_Daily_Eurofurence-06-Wednesday.pdf"
+        "url": "/daily/EF16-The_Daily_Eurofurence-06-Wednesday.pdf"
       },
       {
         "title": "Issue 7, Thursday",
-        "url": "daily/EF16-The_Daily_Eurofurence-07-Thursday.pdf"
+        "url": "/daily/EF16-The_Daily_Eurofurence-07-Thursday.pdf"
       },
       {
         "title": "Issue 8, Friday",
-        "url": "daily/EF16-The_Daily_Eurofurence-08-Friday.pdf"
+        "url": "/daily/EF16-The_Daily_Eurofurence-08-Friday.pdf"
       },
       {
         "title": "Issue 9, Saturday",
-        "url": "daily/EF16-The_Daily_Eurofurence-09-Saturday.pdf"
+        "url": "/daily/EF16-The_Daily_Eurofurence-09-Saturday.pdf"
       },
       {
         "title": "Issue 10, Sunday",
-        "url": "daily/EF16-The_Daily_Eurofurence-10-Sunday.pdf"
+        "url": "/daily/EF16-The_Daily_Eurofurence-10-Sunday.pdf"
       }
     ],
     "videos": [
@@ -289,7 +289,7 @@
         "url": "https://vimeo.com/117698369"
       }
     ],
-    "conbook": "conbooks/EF_16_Conbook.pdf",
+    "conbook": "/conbooks/EF_16_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF16/"
   },
   {
@@ -298,23 +298,23 @@
     "daily": [
       {
         "title": "Issue 1, Wednesday",
-        "url": "daily/EF15-The_Daily_Eurofurence-01-Wednesday.pdf"
+        "url": "/daily/EF15-The_Daily_Eurofurence-01-Wednesday.pdf"
       },
       {
         "title": "Issue 2, Thursday",
-        "url": "daily/EF15-The_Daily_Eurofurence-02-Thursday.pdf"
+        "url": "/daily/EF15-The_Daily_Eurofurence-02-Thursday.pdf"
       },
       {
         "title": "Issue 3, Friday",
-        "url": "daily/EF15-The_Daily_Eurofurence-03-Friday.pdf"
+        "url": "/daily/EF15-The_Daily_Eurofurence-03-Friday.pdf"
       },
       {
         "title": "Issue 4, Saturday",
-        "url": "daily/EF15-The_Daily_Eurofurence-04-Saturday.pdf"
+        "url": "/daily/EF15-The_Daily_Eurofurence-04-Saturday.pdf"
       },
       {
         "title": "Issue 5, Sunday",
-        "url": "daily/EF15-The_Daily_Eurofurence-05-Sunday.pdf"
+        "url": "/daily/EF15-The_Daily_Eurofurence-05-Sunday.pdf"
       }
     ],
     "videos": [
@@ -327,19 +327,19 @@
         "url": "https://vimeo.com/111980048"
       }
     ],
-    "conbook": "conbooks/EF_15_Conbook.pdf",
+    "conbook": "/conbooks/EF_15_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF15/"
   },
   {
     "title": "Eurofurence 14",
     "theme": "From Dusk Till Dawn",
-    "conbook": "conbooks/EF_14_Conbook.pdf",
+    "conbook": "/conbooks/EF_14_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF14/"
   },
   {
     "title": "Eurofurence 13",
     "theme": "The Unlucky Thirteen",
-    "conbook": "conbooks/EF_13_Conbook.pdf",
+    "conbook": "/conbooks/EF_13_Conbook.pdf",
     "videos": [
       {
         "title": "Eurofurence 13 (2007) - Ringberg Hotel Promo",
@@ -355,7 +355,7 @@
   {
     "title": "Eurofurence 12",
     "theme": "The Hounds of Blackwhite Castle",
-    "conbook": "conbooks/EF_12_Conbook.pdf",
+    "conbook": "/conbooks/EF_12_Conbook.pdf",
     "videos": [
       {
         "title": "In Loving Memory of Samuel Conway Sr.",
@@ -367,7 +367,7 @@
   {
     "title": "Eurofurence 11",
     "theme": "Songs of the Old Ages",
-    "conbook": "conbooks/EF_11_Conbook.pdf",
+    "conbook": "/conbooks/EF_11_Conbook.pdf",
     "videos": [
       {
         "title": "Eurofurence 11 (2005) - The March of Cambreadth",
@@ -395,7 +395,7 @@
   {
     "title": "Eurofurence 10",
     "theme": "EFX - The Movie!",
-    "conbook": "conbooks/EF_10_Conbook.pdf",
+    "conbook": "/conbooks/EF_10_Conbook.pdf",
     "videos": [
       {
         "title": "Eurofurence 10 (2004) - From the Archives",
@@ -411,28 +411,28 @@
   {
     "title": "Eurofurence 9",
     "theme": "Cunning little Vixens",
-    "conbook": "conbooks/EF_9_Conbook.pdf",
+    "conbook": "/conbooks/EF_9_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF9/"
   },
   {
     "title": "Eurofurence 8",
     "theme": "The F.I.A.",
-    "conbook": "conbooks/EF_8_Conbook.pdf",
+    "conbook": "/conbooks/EF_8_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF8/"
   },
   {
     "title": "Eurofurence 7",
-    "conbook": "conbooks/EF_7_Conbook.pdf",
+    "conbook": "/conbooks/EF_7_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF7/"
   },
   {
     "title": "Eurofurence 6",
-    "conbook": "conbooks/EF_6_Conbook.pdf",
+    "conbook": "/conbooks/EF_6_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF6/"
   },
   {
     "title": "Eurofurence 5",
-    "conbook": "conbooks/EF_5_Conbook.pdf",
+    "conbook": "/conbooks/EF_5_Conbook.pdf",
     "videos": [
       {
         "title": "Eurofurence 5 (1999) - A blast from the past",
@@ -443,7 +443,7 @@
   },
   {
     "title": "Eurofurence 4",
-    "conbook": "conbooks/EF_4_Conbook.pdf",
+    "conbook": "/conbooks/EF_4_Conbook.pdf",
     "videos": [
       {
         "title": "Eurofurence 4 (1998) - Pure Nostalgia",
@@ -454,7 +454,7 @@
   },
   {
     "title": "Eurofurence 3",
-    "conbook": "conbooks/EF_3_Conbook.pdf",
+    "conbook": "/conbooks/EF_3_Conbook.pdf",
     "videos": [
       {
         "title": "Eurofurence 3 (1997) - The Lost Tape",

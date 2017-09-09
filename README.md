@@ -1,6 +1,6 @@
 # Eurofurence Archive
 
-This project contains the Eurofurence Archive page providing Conbooks, Websites and Daily Eurofurence issues of past conventions.
+This project contains the Eurofurence Archive page providing Conbooks, Websites, Daily Eurofurence issues and other resources of past conventions.
 
 ![Screenshot](screenshot.jpg)
 
@@ -8,11 +8,13 @@ This project contains the Eurofurence Archive page providing Conbooks, Websites 
 
 To host this page, you need a static webserver serving the contents of the `build` directory.
 
-To add or modify the content of the page, e.g. to add a new convention or fix a URL to any resource, check out the `config.json` file in the `public` directory. __Do not change the `config.json` file in the build directory. It will be overwritten!__ (_That being said, you can of course change the `config.json` you put on the server to make a quick-fix without building the project. Just keep in mind that this change might be overwritten when you ever upgrade to a new version._)
+To make changes to the page, you need node and npm. [Get it here.](https://nodejs.org/en/) Also make sure to run `npm install` before attempting to run `npm run build`.
+
+To add or modify the content of the page, e.g. to add a new convention or fix a URL to any resource, check out the `config.json` file in the `src` directory. After making the changes there, run `npm run build` to apply the changes. Afterwards, copy the files in the `build` directory to the server.
+
+__Do not try to modify files in the build directory. They will be overwritten!__
 
 ## Development
-
-If you just want to add new conventions or Daily Eurofurence Issues, you can do that by modifying the `config.json` file (see above).
 
 If you want to add more features or fix bugs on the site itself, you need to follow these steps:
 

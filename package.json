@@ -10,11 +10,18 @@
     "semantic-ui-react": "^0.71.5"
   },
   "devDependencies": {
-    "react-scripts": "1.0.11"
+    "react-scripts": "1.0.11",
+    "react-snapshot": "^1.2.0"
+  },
+  "reactSnapshot": {
+    "exclude": [
+      "/daily",
+      "/conbooks"
+    ]
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && react-snapshot && node ./scripts/clearReact",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

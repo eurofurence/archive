@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container, Header, Segment, Grid, Card, Icon, Statistic, List} from 'semantic-ui-react';
+import {Container, Header, Segment, Statistic, List} from 'semantic-ui-react';
 
 import "./Content.css";
 
@@ -42,7 +42,7 @@ class Content extends Component {
 
   render() {
     if(this.props.data && this.props.match.params.year) {
-      const entry = this.props.data.filter(({title}) => title === this.props.match.params.year)[0];
+      const entry = this.props.data.filter(({title}) => title.split(' ')[1] === this.props.match.params.year)[0];
       return (
         <div className="main-content">
           <Container text>
@@ -163,20 +163,6 @@ class Content extends Component {
             <Segment>
               Our convention reaches back over 20 years in tradition and history already. Take a look at the previous convention websites and feel the spirit of our history for yourself! See what has been, how we grew in size and events. Enjoy the nostalgic feeling in case you have been amongst us already or let you inspire what awaits you, should you decide to join the fun this year!
             </Segment>
-            <Grid columns='1'>
-              <Grid.Row textAlign="center">
-                <Grid.Column>
-                  <Card onClick={this.random}>
-                    <Card.Content>
-                      <Icon name='random' size='huge' />
-                    </Card.Content>
-                    <Card.Content>
-                      Check out the content of a random year
-                    </Card.Content>
-                  </Card>
-                </Grid.Column>
-              </Grid.Row>
-            </Grid>
           </Container>
         </div>
       );
