@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Menu, Header, Dropdown} from 'semantic-ui-react';
+import {Menu, Header} from 'semantic-ui-react';
 
 
 class YearEntry extends Component {

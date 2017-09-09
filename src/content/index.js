@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container, Header, Segment, Grid, Card, Icon, Button, Statistic, List} from 'semantic-ui-react';
+import {Container, Header, Segment, Grid, Card, Icon, Statistic, List} from 'semantic-ui-react';
 
 import "./Content.css";
 
@@ -23,19 +23,11 @@ class Content extends Component {
     }
   }
 
-  random = type => evt => {
-    const candidates = this.props.data.filter(entry => entry[type]);
+  random = evt => {
+    const candidates = this.props.data;
     const entry = candidates[~~(Math.random() * candidates.length)];
     
-    if(type === 'website') {
-      const newTab = window.open(entry.website, '_blank');
-      newTab.focus();
-    } else if(type === 'conbook') {
-      window.location.hash = encodeURI(entry.title) + '/conbook';
-    } else if(type === 'daily') {
-      const daily = entry.daily[~~(Math.random() * entry.daily.length)];
-      window.location.hash = encodeURI(entry.title) + '/daily/' + encodeURI(daily.title);
-    }
+    window.location.hash = encodeURI(entry.title);
   };
 
   componentWillReceiveProps(newProps) {
@@ -51,103 +43,113 @@ class Content extends Component {
   render() {
     if(this.props.data && this.props.match.params.year) {
       const entry = this.props.data.filter(({title}) => title === this.props.match.params.year)[0];
-      console.log('entry', entry);
       return (
         <div className="main-content">
           <Container text>
             <Header as="h1" textAlign="center" color="grey">{entry.title}</Header>
             <Header as="h2" textAlign="center">{entry.theme}</Header>
 
-            <Statistic.Group widths="three" style={{marginTop: '2em'}}>
-              <Statistic label='Visitors' value='2,271' />
-              <Statistic label='Fursuiters' value='814' />
-              <Statistic label='Events' value='83' />
-            </Statistic.Group>
+            {entry.statistics && !!entry.statistics.length && (
+              <Statistic.Group widths={entry.statistics.length} style={{marginTop: '2em'}}>
+                {entry.statistics.map(({title, number}) => <Statistic key={title} label={title} value={number} />)}
+              </Statistic.Group>
+            )}
 
             <Segment>
               <p>The following resources are available for you to enjoy:</p>
               <List relaxed size='large'>
-              <List.Item>
-                  <List.Icon name='desktop' />
-                  <List.Content>
-                    <List.Header as='a'>Website</List.Header>
-                  </List.Content>
-                </List.Item>
-                <List.Item>
-                  <List.Icon name='book' />
-                  <List.Content>
-                    <List.Header as='a'>Conbook</List.Header>
-                  </List.Content>
-                </List.Item>
-                <List.Item>
-                  <List.Icon name='newspaper' />
-                  <List.Content>
-                    <List.Header>Daily Eurofurence</List.Header>
-                    <List.List>
-                      <List.Item>
-                        <List.Content>
-                          <List.Header as='a'>Thursday</List.Header>
-                        </List.Content>
-                      </List.Item>
-                      <List.Item>
-                        <List.Content>
-                          <List.Header as='a'>Friday</List.Header>
-                        </List.Content>
-                      </List.Item>
-                      <List.Item>
-                        <List.Content>
-                          <List.Header as='a'>Saturday</List.Header>
-                        </List.Content>
-                      </List.Item>
-                      <List.Item>
-                        <List.Content>
-                          <List.Header as='a'>Sunday</List.Header>
-                        </List.Content>
-                      </List.Item>
-                    </List.List>
-                  </List.Content>
-                </List.Item>
-                <List.Item>
-                  <List.Icon name='video' />
-                  <List.Content>
-                    <List.Header>Videos</List.Header>
-                    <List.List>
-                      <List.Item>
-                        <List.Content>
-                          <List.Header as='a'>Eurofurence 21 (2015) - Part 1/2</List.Header>
-                        </List.Content>
-                      </List.Item>
-                      <List.Item>
-                        <List.Content>
-                          <List.Header as='a'>Eurofurence 21 (2015) - Part 2/2</List.Header>
-                        </List.Content>
-                      </List.Item>
-                      <List.Item>
-                        <List.Content>
-                          <List.Header as='a'>The Anatomy of a Pawpet Show</List.Header>
-                        </List.Content>
-                      </List.Item>
-                    </List.List>
-                  </List.Content>
-                </List.Item>
-                <List.Item>
-                  <List.Icon name='photo' />
-                  <List.Content>
-                    <List.Header>Photos</List.Header>
-                    <List.List>
-                      <List.Item>
-                        <List.Content>
-                          <List.Header as='a'>Group Photo</List.Header>
-                        </List.Content>
-                      </List.Item>
-                      <List.Item>
-                        <List.Content>
-                          <List.Header as='a'>Fursuit Photo Gallery</List.Header>
-                        </List.Content>
-                      </List.Item>
-                    </List.List>
-                  </List.Content>
-                </List.Item>
+                {entry.website && (
+                  <List.Item>
+                    <List.Icon name='desktop' />
+                    <List.Content>
+                      <List.Header as='a' href={entry.website}>Website</List.Header>
+                    </List.Content>
+                  </List.Item>
+                )}
+                {entry.conbook && (
+                  <List.Item>
+                    <List.Icon name='book' />
+                    <List.Content>
+                      <List.Header as='a' href={entry.conbook}>Conbook</List.Header>
+                    </List.Content>
+                  </List.Item>
+                )}
+                {entry.daily && !!entry.daily.length && (
+                  <List.Item>
+                    <List.Icon name='newspaper' />
+                    <List.Content>
+                      <List.Header>Daily Eurofurence</List.Header>
+                      <List.List>
+                        {entry.daily.map(({title, url}) => {
+                          return (
+                            <List.Item key={title}>
+                              <List.Content>
+                                <List.Header as='a' href={url}>{title}</List.Header>
+                              </List.Content>
+                            </List.Item>
+                          );
+                        })}
+                      </List.List>
+                    </List.Content>
+                  </List.Item>
+                )}
+                {entry.videos && !!entry.videos.length && (
+                  <List.Item>
+                    <List.Icon name='video' />
+                    <List.Content>
+                      <List.Header>Videos</List.Header>
+                      <List.List>
+                        {entry.videos.map(({title, url}) => {
+                          return (
+                            <List.Item key={title}>
+                              <List.Content>
+                                <List.Header as='a' href={url}>{title}</List.Header>
+                              </List.Content>
+                            </List.Item>
+                          );
+                        })}
+                      </List.List>
+                    </List.Content>
+                  </List.Item>
+                )}
+                {entry.photos && !!entry.photos.length && (
+                  <List.Item>
+                    <List.Icon name='photo' />
+                    <List.Content>
+                      <List.Header>Photos</List.Header>
+                      <List.List>
+                        {entry.photos.map(({title, url}) => {
+                          return (
+                            <List.Item key={title}>
+                              <List.Content>
+                                <List.Header as='a' href={url}>{title}</List.Header>
+                              </List.Content>
+                            </List.Item>
+                          );
+                        })}
+                      </List.List>
+                    </List.Content>
+                  </List.Item>
+                )}
+                {entry.misc && !!entry.misc.length && (
+                  <List.Item>
+                    <List.Icon name='external' />
+                    <List.Content>
+                      <List.Header>Other</List.Header>
+                      <List.List>
+                        {entry.misc.map(({title, url}) => {
+                          return (
+                            <List.Item key={title}>
+                              <List.Content>
+                                <List.Header as='a' href={url}>{title}</List.Header>
+                              </List.Content>
+                            </List.Item>
+                          );
+                        })}
+                      </List.List>
+                    </List.Content>
+                  </List.Item>
+                )}
               </List>
             </Segment>
           </Container>
@@ -161,35 +163,15 @@ class Content extends Component {
             <Segment>
               Our convention reaches back over 20 years in tradition and history already. Take a look at the previous convention websites and feel the spirit of our history for yourself! See what has been, how we grew in size and events. Enjoy the nostalgic feeling in case you have been amongst us already or let you inspire what awaits you, should you decide to join the fun this year!
             </Segment>
-            <Grid columns='3'>
+            <Grid columns='1'>
               <Grid.Row textAlign="center">
                 <Grid.Column>
-                  <Card onClick={this.random('daily')}>
+                  <Card onClick={this.random}>
                     <Card.Content>
-                      <Icon name='newspaper' size='huge' />
+                      <Icon name='random' size='huge' />
                     </Card.Content>
                     <Card.Content>
-                      Check out a random Daily Eurofurence Issue
-                    </Card.Content>
-                  </Card>
-                </Grid.Column>
-                <Grid.Column>
-                  <Card onClick={this.random('conbook')}>
-                    <Card.Content>
-                      <Icon name='book' size='huge' />
-                    </Card.Content>
-                    <Card.Content>
-                      Check out a random Eurofurence Conbook
-                    </Card.Content>
-                  </Card>
-                </Grid.Column>
-                <Grid.Column>
-                  <Card onClick={this.random('website')}>
-                    <Card.Content>
-                      <Icon name='desktop' size='huge' />
-                    </Card.Content>
-                    <Card.Content>
-                      Check out a random Eurofurence Website
+                      Check out the content of a random year
                     </Card.Content>
                   </Card>
                 </Grid.Column>
