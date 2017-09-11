@@ -37,11 +37,21 @@ walk('./build', function(err, results) {
 
 function handleFile(file) {
   const content = fs.readFileSync(file).toString();
+  const fileParts = file.split('/');
+  const isSubPage = fileParts.length === 4;
+  const relPrefix = isSubPage ? '' : 'static/';
 
-  // remoe all data attributes
   const newContent = content
     .replace(/( data-([^"]+)"([^"]*)")/g, '')
+    .replace(/="\/static\//g, '="' + relPrefix)
+    .replace(/<!--[^>]+>/g, '')
     .replace(/<script(.*)<\/script>/g, '');
 
-  fs.writeFileSync(file, newContent);
+  if(isSubPage) {
+    fs.unlinkSync(file);
+    fs.rmdirSync(fileParts[0] + '/' + fileParts[1] + '/' + fileParts[2]);
+    fs.writeFileSync(fileParts[0] + '/' + fileParts[1] + '/static/index_' + fileParts[2] + '.html', newContent);
+  } else {
+    fs.writeFileSync(file, newContent);
+  }
 }

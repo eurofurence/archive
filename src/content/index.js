@@ -4,42 +4,6 @@ import {Container, Header, Segment, Statistic, List} from 'semantic-ui-react';
 import "./Content.css";
 
 class Content extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      newBuffer: false
-    };
-  }
-
-  getUrl = ({year, type, issue}) => {
-    const entry = this.props.data.filter(({title}) => title === year)[0];
-
-    if(entry) {
-      if(type === 'daily') {
-        return entry.daily.filter(({title}) => title === issue)[0].url;
-      }
-      return entry[type];
-    }
-  }
-
-  random = evt => {
-    const candidates = this.props.data;
-    const entry = candidates[~~(Math.random() * candidates.length)];
-    
-    window.location.hash = encodeURI(entry.title);
-  };
-
-  componentWillReceiveProps(newProps) {
-    this.setState({
-      newBuffer: true
-    });
-  }
-
-  getReadableType({type, year, issue}) {
-    return (type === 'daily' ? ('the Daily Eurofurence ' + issue) : 'the conbook') + ' of ' + year;
-  }
-
   render() {
     if(this.props.data && this.props.match.params.year) {
       const entry = this.props.data.filter(({title}) => title.split(' ')[1] === this.props.match.params.year)[0];

@@ -18,7 +18,7 @@ class YearEntry extends Component {
     const isActive = this.props.match.params.year === this.props.title.split(' ')[1];
     const entryClass = this.props.theme ? "archive-entry year-entry" : "archive-entry year-entry-no-theme";
     return (
-      <Menu.Item active={isActive} className={entryClass} href={'/' + this.generateUrl(this.props.title) + '/'}>
+      <Menu.Item active={isActive} className={entryClass} href={(this.props.match.params.year ? '../' : '') + this.generateUrl(this.props.title) + '/'}>
         <Header as="h4">{this.props.title}</Header>
         <p>{this.props.theme}</p>
       </Menu.Item>
