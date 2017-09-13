@@ -1,0 +1,11 @@
+#
+# robots.txt for EF Archive page
+# allowing only root to be indexed
+# and necessary scriots/files to be seen
+#
+
+User-agent: *
+Allow: /$
+Allow: /conf*
+Allow: /static/
+Disallow: /
