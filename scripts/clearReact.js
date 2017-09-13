@@ -36,6 +36,9 @@ walk('./build', function(err, results) {
 });
 
 function handleFile(file) {
+
+  console.log('postprocessing ' + file);
+
   const content = fs.readFileSync(file).toString();
   const fileParts = file.split('/');
   const isSubPage = fileParts.length === 4;
@@ -50,7 +53,11 @@ function handleFile(file) {
   if(isSubPage) {
     fs.unlinkSync(file);
     fs.rmdirSync(fileParts[0] + '/' + fileParts[1] + '/' + fileParts[2]);
-    fs.writeFileSync(fileParts[0] + '/' + fileParts[1] + '/static/index_' + fileParts[2] + '.html', newContent);
+    const newFileName = fileParts[0] + '/' + fileParts[1] + '/static/index_' + fileParts[2] + '.html';
+
+    console.log(' -- moving to ' + newFileName);
+
+    fs.writeFileSync(newFileName, newContent);
   } else {
     fs.writeFileSync(file, newContent);
   }

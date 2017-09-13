@@ -10,6 +10,7 @@
     "semantic-ui-react": "^0.71.5"
   },
   "devDependencies": {
+    "purify-css": "^1.2.5",
     "react-scripts": "1.0.11",
     "react-snapshot": "^1.2.0"
   },
@@ -21,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot && node ./scripts/clearReact",
+    "build": "react-scripts build && react-snapshot && node ./scripts/clearReact && node ./scripts/purifyCss",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
