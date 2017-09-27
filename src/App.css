@@ -30,6 +30,22 @@
   height:5px;
 }
 
+@media (max-width: 700px) {
+  .archive-desktop {
+    display: none;
+  }
+
+
+  body {
+    overflow: auto;
+  }
+}
+@media (min-width: 700px) {
+  .archive-mobile {
+    display: none;
+  }
+}
+
 @media (max-height: 700px) {
   .banner-container .logo {
     font-family:'IrisUPC', sans-serif;

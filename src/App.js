@@ -8,6 +8,7 @@ import data from './config.json';
 import ContentSelection from './contentSelection';
 import Content from './content';
 import HeadAugmenter from './HeadAugmenter';
+import MobileView from './MobileView';
 
 class App extends Component {
   render() {
@@ -30,6 +31,9 @@ class App extends Component {
                 <ContentSelection data={data} match={match} />
                 <Content data={data} match={match} />
               </div>
+          </div>
+          <div className="archive-mobile">
+            <MobileView data={data} match={match} />
           </div>
         </div>
       } />

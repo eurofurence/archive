@@ -7,7 +7,8 @@ const fileName = './build/static/css/' + fs.readdirSync('./build/static/css').fi
 let content = ['./build/index.html', './build/static/*.html'];
 let css = [fileName];
 let options = {
-    minify: true
+    minify: true,
+    whitelist: [ '*:not*' ]
 }
 
 console.log('purifying CSS of ' + fileName);
