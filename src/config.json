@@ -20,7 +20,6 @@
         "url": "/daily/dailyEF23_20aug17.pdf"
       }
     ],
-    "statistics": [],
     "videos": [],
     "photos": [],
     "misc": [],
@@ -62,7 +61,10 @@
         "url": "https://vimeo.com/190731922"
       }
     ],
-    "statistics": [],
+    "statistics": [{
+      "title": "attendees",
+      "number": "2.573"
+    }],
     "conbook": "/conbooks/EF_22_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF22/"
   },
@@ -101,6 +103,10 @@
         "url": "https://vimeo.com/218944499"
       }
     ],
+    "statistics": [{
+      "title": "attendees",
+      "number": "2.095"
+    }],
     "conbook": "/conbooks/EF_21_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF21/"
   },
@@ -143,6 +149,10 @@
         "url": "https://vimeo.com/217138653"
       }
     ],
+    "statistics": [{
+      "title": "attendees",
+      "number": "2.015"
+    }],
     "conbook": "/conbooks/EF_20_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF20/"
   },
@@ -177,6 +187,10 @@
         "url": "https://vimeo.com/116841159"
       }
     ],
+    "statistics": [{
+      "title": "attendees",
+      "number": "1.376"
+    }],
     "conbook": "/conbooks/EF_19_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF19/"
   },
@@ -223,12 +237,20 @@
         "url": "https://vimeo.com/117698368"
       }
     ],
+    "statistics": [{
+      "title": "attendees",
+      "number": "1.278"
+    }],
     "conbook": "/conbooks/EF_18_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF18/"
   },
   {
     "title": "Eurofurence 17",
     "theme": "Kung Fur Hustle",
+    "statistics": [{
+      "title": "attendees",
+      "number": "1.066"
+    }],
     "daily": [
       {
         "title": "Issue 11, Wednesday",
@@ -263,6 +285,10 @@
   {
     "title": "Eurofurence 16",
     "theme": "Serengeti",
+    "statistics": [{
+      "title": "attendees",
+      "number": "973"
+    }],
     "daily": [
       {
         "title": "Issue 6, Wednesday",
@@ -297,6 +323,10 @@
   {
     "title": "Eurofurence 15",
     "theme": "1001 Arabian Nights",
+    "statistics": [{
+      "title": "attendees",
+      "number": "955"
+    }],
     "daily": [
       {
         "title": "Issue 1, Wednesday",
@@ -335,6 +365,10 @@
   {
     "title": "Eurofurence 14",
     "theme": "From Dusk Till Dawn",
+    "statistics": [{
+      "title": "attendees",
+      "number": "777"
+    }],
     "conbook": "/conbooks/EF_14_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF14/"
   },
@@ -342,6 +376,10 @@
     "title": "Eurofurence 13",
     "theme": "The Unlucky Thirteen",
     "conbook": "/conbooks/EF_13_Conbook.pdf",
+    "statistics": [{
+      "title": "attendees",
+      "number": "585"
+    }],
     "videos": [
       {
         "title": "Eurofurence 13 (2007) - Ringberg Hotel Promo",
@@ -357,6 +395,10 @@
   {
     "title": "Eurofurence 12",
     "theme": "The Hounds of Blackwhite Castle",
+    "statistics": [{
+      "title": "attendees",
+      "number": "405"
+    }],
     "conbook": "/conbooks/EF_12_Conbook.pdf",
     "videos": [
       {
@@ -369,6 +411,10 @@
   {
     "title": "Eurofurence 11",
     "theme": "Songs of the Old Ages",
+    "statistics": [{
+      "title": "attendees",
+      "number": "380"
+    }],
     "conbook": "/conbooks/EF_11_Conbook.pdf",
     "videos": [
       {
@@ -398,6 +444,10 @@
     "title": "Eurofurence 10",
     "theme": "EFX - The Movie!",
     "conbook": "/conbooks/EF_10_Conbook.pdf",
+    "statistics": [{
+      "title": "attendees",
+      "number": "295"
+    }],
     "videos": [
       {
         "title": "Eurofurence 10 (2004) - From the Archives",
@@ -413,28 +463,48 @@
   {
     "title": "Eurofurence 9",
     "theme": "Cunning little Vixens",
+    "statistics": [{
+      "title": "attendees",
+      "number": "165"
+    }],
     "conbook": "/conbooks/EF_9_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF9/"
   },
   {
     "title": "Eurofurence 8",
     "theme": "The F.I.A.",
+    "statistics": [{
+      "title": "attendees",
+      "number": "260"
+    }],
     "conbook": "/conbooks/EF_8_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF8/"
   },
   {
     "title": "Eurofurence 7",
+    "statistics": [{
+      "title": "attendees",
+      "number": "230"
+    }],
     "conbook": "/conbooks/EF_7_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF7/"
   },
   {
     "title": "Eurofurence 6",
+    "statistics": [{
+      "title": "attendees",
+      "number": "160"
+    }],
     "conbook": "/conbooks/EF_6_Conbook.pdf",
     "website": "https://www.eurofurence.org/EF6/"
   },
   {
     "title": "Eurofurence 5",
     "conbook": "/conbooks/EF_5_Conbook.pdf",
+    "statistics": [{
+      "title": "attendees",
+      "number": "112"
+    }],
     "videos": [
       {
         "title": "Eurofurence 5 (1999) - A blast from the past",
@@ -446,6 +516,10 @@
   {
     "title": "Eurofurence 4",
     "conbook": "/conbooks/EF_4_Conbook.pdf",
+    "statistics": [{
+      "title": "attendees",
+      "number": "94"
+    }],
     "videos": [
       {
         "title": "Eurofurence 4 (1998) - Pure Nostalgia",
@@ -457,6 +531,10 @@
   {
     "title": "Eurofurence 3",
     "conbook": "/conbooks/EF_3_Conbook.pdf",
+    "statistics": [{
+      "title": "attendees",
+      "number": "59"
+    }],
     "videos": [
       {
         "title": "Eurofurence 3 (1997) - The Lost Tape",
@@ -467,10 +545,18 @@
   },
   {
     "title": "Eurofurence 2",
+    "statistics": [{
+      "title": "attendees",
+      "number": "35"
+    }],
     "website": "https://www.eurofurence.org/EF2/orig.html"
   },
   {
     "title": "Eurofurence 1",
+    "statistics": [{
+      "title": "attendees",
+      "number": "19"
+    }],
     "website": "https://www.eurofurence.org/EF1/eurofurence.html"
   }
 ]
