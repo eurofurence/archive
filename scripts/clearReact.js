@@ -1,7 +1,7 @@
 "use strict";
 
-var fs = require('fs');
-var path = require('path');
+var fs = require("fs");
+var path = require("path");
 var walk = function(dir, done) {
   var results = [];
   fs.readdir(dir, function(err, list) {
@@ -10,7 +10,7 @@ var walk = function(dir, done) {
     (function next() {
       var file = list[i++];
       if (!file) return done(null, results);
-      file = dir + '/' + file;
+      file = dir + "/" + file;
       fs.stat(file, function(err, stat) {
         if (stat && stat.isDirectory()) {
           walk(file, function(err, res) {
@@ -18,7 +18,10 @@ var walk = function(dir, done) {
             next();
           });
         } else {
-          if(path.extname(file) === '.html' && file.indexOf('200.html') === -1) {
+          if (
+            path.extname(file) === ".html" &&
+            file.indexOf("200.html") === -1
+          ) {
             results.push(file);
           }
           next();
@@ -28,7 +31,7 @@ var walk = function(dir, done) {
   });
 };
 
-walk('./build', function(err, results) {
+walk("./build", function(err, results) {
   if (err) throw err;
   results.forEach(file => {
     handleFile(file);
@@ -36,26 +39,31 @@ walk('./build', function(err, results) {
 });
 
 function handleFile(file) {
-
-  console.log('postprocessing ' + file);
+  console.log("postprocessing " + file);
 
   const content = fs.readFileSync(file).toString();
-  const fileParts = file.split('/');
+  const fileParts = file.split("/");
   const isSubPage = fileParts.length === 4;
-  const relPrefix = isSubPage ? '' : 'static/';
+  const relPrefix = isSubPage ? "../static/" : "static/";
 
   const newContent = content
-    .replace(/( data-([^"]+)"([^"]*)")/g, '')
+    .replace(/( data-([^"]+)"([^"]*)")/g, "")
     .replace(/="\/static\//g, '="' + relPrefix)
-    .replace(/<!--[^>]+>/g, '')
-    .replace(/<script(.*)<\/script>/g, '');
+    .replace(/<!--[^>]+>/g, "")
+    .replace(/<script(.*)<\/script>/g, "");
 
-  if(isSubPage) {
+  if (isSubPage) {
     fs.unlinkSync(file);
-    fs.rmdirSync(fileParts[0] + '/' + fileParts[1] + '/' + fileParts[2]);
-    const newFileName = fileParts[0] + '/' + fileParts[1] + '/static/index_' + fileParts[2] + '.html';
+    fs.rmdirSync(fileParts[0] + "/" + fileParts[1] + "/" + fileParts[2]);
+    const newFileName =
+      fileParts[0] +
+      "/" +
+      fileParts[1] +
+      "/static/index_" +
+      fileParts[2] +
+      ".html";
 
-    console.log(' -- moving to ' + newFileName);
+    console.log(" -- moving to " + newFileName);
 
     fs.writeFileSync(newFileName, newContent);
   } else {
