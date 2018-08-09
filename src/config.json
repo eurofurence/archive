@@ -20,7 +20,24 @@
         "url": "/daily/dailyEF23_20aug17.pdf"
       }
     ],
-    "videos": [],
+    "statistics": [{
+      "title": "attendees",
+      "number": "2.853"
+    }],
+    "videos": [
+      {
+        "title": "Eurofurence 23 (2017) - Part 1/2",
+        "url": "https://vimeo.com/250978529"
+      },
+      {
+        "title": "Eurofurence 23 (2017) - Part 2/2",
+        "url": "https://vimeo.com/250977235"
+      },
+      {
+        "title": "Foxes & Peppers in Concert",
+        "url": "https://vimeo.com/248911188"
+      }
+    ],
     "photos": [],
     "misc": [],
     "conbook": "/conbooks/EF_23_Conbook.pdf",
@@ -59,6 +76,10 @@
       {
         "title": "Eurofurence 22 (2016) - Part 2/2",
         "url": "https://vimeo.com/190731922"
+      },
+      {
+        "title": "Charity Concert",
+        "url": "https://vimeo.com/233568598"
       }
     ],
     "statistics": [{
