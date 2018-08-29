@@ -1,0 +1,20 @@
+{
+  "title": "Eurofurence 13",
+  "theme": "The Unlucky Thirteen",
+  "conbook": "/conbooks/EF_13_Conbook.pdf",
+  "statistics": [{
+    "title": "attendees",
+    "number": "585"
+  }],
+  "videos": [
+    {
+      "title": "Eurofurence 13 (2007) - Ringberg Hotel Promo",
+      "url": "https://vimeo.com/115500315"
+    },
+    {
+      "title": "Eurofurence 13 (2007) - The Unlucky 13",
+      "url": "https://vimeo.com/115514570"
+    }
+  ],
+  "website": "https://www.eurofurence.org/EF13/"
+}

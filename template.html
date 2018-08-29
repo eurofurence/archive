@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/ef-icon.png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="canonical" href="https://archive.eurofurence.org/{{year}}{{#year}}/{{/year}}">
+    <title>Eurofurence Archive</title>
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="banner">
+        <a href="/">
+          <img src="/images/ef-logo.png" alt="Logo" />
+        </a>
+        <div class="logo-text">
+          Eurofurence Archive
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="menu">
+        {{#years}}
+          <a href="/{{number}}/">
+            <h4>Eurofurence {{number}}</h4>
+            <p>{{theme}}</p>
+          </a>
+        {{/years}}
+      </div>
+      <div class="content">
+        <div class="content-container">
+          {{^content}}
+            <div class="welcome">
+              <h1>Welcome to the Eurofurence Archive!</h1>
+              <div class="info-box">Our convention reaches back over 20 years in tradition and history already. Take a look at the previous convention websites and feel the spirit of our history for yourself! See what has been, how we grew in size and events. Enjoy the nostalgic feeling in case you have been amongst us already or let you inspire what awaits you, should you decide to join the fun this year!</div>
+            </div>
+          {{/content}}
+          {{#content}}
+            <h1>{{title}}</h1>
+            <h2>{{theme}}</h1>
+            {{#statistics}}
+              <div class="statistics">
+                <div class="value">{{number}}</div>
+                <div class="label">{{title}}</div>
+              </div>
+            {{/statistics}}
+            <div class="info-box">
+              <p>The following resources are available for you to enjoy:</p>
+              <ul>
+                {{#website}}
+                  <li>
+                    <img src="/images/desktop.svg" alt="Website" />
+                    <a href="{{{website}}}">Website</a>
+                  </li>
+                {{/website}}
+                {{#conbook}}
+                  <li>
+                    <img src="/images/book.svg" alt="Conbook" />
+                    <a href="{{{conbook}}}">Conbook</a>
+                  </li>
+                {{/conbook}}
+                {{#daily.length}}
+                  <li>
+                    <img src="/images/newspaper.svg" alt="Daily Eurofurence" />
+                    Daily Eurofurence
+                    <ul>
+                      {{#daily}}
+                        <li><a href="{{{url}}}">{{title}}</a></li>
+                      {{/daily}}
+                    </ul>
+                  </li>
+                {{/daily.length}}
+                {{#videos.length}}
+                  <li>
+                    <img src="/images/video.svg" alt="Videos" />
+                    Videos
+                    <ul>
+                      {{#videos}}
+                        <li><a href="{{{url}}}">{{title}}</a></li>
+                      {{/videos}}
+                    </ul>
+                  </li>
+                {{/videos.length}}
+                {{#photos.length}}
+                  <li>
+                    <img src="/images/photo.svg" alt="Photos" />
+                    Photos
+                    <ul>
+                      {{#photos}}
+                        <li><a href="{{{url}}}">{{title}}</a></li>
+                      {{/photos}}
+                    </ul>
+                  </li>
+                {{/photos.length}}
+                {{#misc.length}}
+                  <li>
+                    <img src="/images/external.svg" alt="Other" />
+                    Other
+                    <ul>
+                      {{#misc}}
+                        <li><a href="{{{url}}}">{{title}}</a></li>
+                      {{/misc}}
+                    </ul>
+                  </li>
+                {{/misc.length}}
+              </ul>
+            </div>
+          {{/content}}
+        </div>
+      </div>
+    </div>
+    <div class="mobile">
+      <h1>Eurofurence Archive</h1>
+      <div class="content-box">
+        <div class="content">
+          {{#content}}
+            <h1>{{title}}</h1>
+            <h2>{{theme}}</h1>
+            {{#statistics}}
+              <div class="statistics">
+                <div class="value">{{number}}</div>
+                <div class="label">{{title}}</div>
+              </div>
+            {{/statistics}}
+            <div class="info-box">
+              <div class="warning">
+                <img src="/images/warning.svg" alt="Warning" />
+                <div>
+                  <h3>Large Files</h3>
+                  <p>The following links contain big PDF and video files! Please mind your data plan and storage capacity!</p>
+                </div>
+              </div>
+              <p>The following resources are available for you to enjoy:</p>
+              <ul>
+                {{#website}}
+                  <li>
+                    <img src="/images/desktop.svg" alt="Website" />
+                    <a href="{{{website}}}">Website</a>
+                  </li>
+                {{/website}}
+                {{#conbook}}
+                  <li>
+                    <img src="/images/book.svg" alt="Conbook" />
+                    <a href="{{{conbook}}}">Conbook</a>
+                  </li>
+                {{/conbook}}
+                {{#daily.length}}
+                  <li>
+                    <img src="/images/newspaper.svg" alt="Daily Eurofurence" />
+                    Daily Eurofurence
+                    <ul>
+                      {{#daily}}
+                        <li><a href="{{{url}}}">{{title}}</a></li>
+                      {{/daily}}
+                    </ul>
+                  </li>
+                {{/daily.length}}
+                {{#videos.length}}
+                  <li>
+                    <img src="/images/video.svg" alt="Videos" />
+                    Videos
+                    <ul>
+                      {{#videos}}
+                        <li><a href="{{{url}}}">{{title}}</a></li>
+                      {{/videos}}
+                    </ul>
+                  </li>
+                {{/videos.length}}
+                {{#photos.length}}
+                  <li>
+                    <img src="/images/photo.svg" alt="Photos" />
+                    Photos
+                    <ul>
+                      {{#photos}}
+                        <li><a href="{{{url}}}">{{title}}</a></li>
+                      {{/photos}}
+                    </ul>
+                  </li>
+                {{/photos.length}}
+                {{#misc.length}}
+                  <li>
+                    <img src="/images/external.svg" alt="Other" />
+                    Other
+                    <ul>
+                      {{#misc}}
+                        <li><a href="{{{url}}}">{{title}}</a></li>
+                      {{/misc}}
+                    </ul>
+                  </li>
+                {{/misc.length}}
+              </ul>
+            </div>
+          {{/content}}
+        </div>
+        {{^content}}
+        <p>Please select a year:</p>
+        {{/content}}
+        {{#content}}
+        <p>Also check out the other years</p>
+        {{/content}}
+        <div class="menu">
+          {{#years}}
+            <a href="/{{number}}/">
+              <h4>Eurofurence {{number}}</h4>
+              <p>{{theme}}</p>
+            </a>
+          {{/years}}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "title": "Eurofurence 10",
+  "theme": "EFX - The Movie!",
+  "conbook": "/conbooks/EF_10_Conbook.pdf",
+  "statistics": [{
+    "title": "attendees",
+    "number": "295"
+  }],
+  "videos": [
+    {
+      "title": "Eurofurence 10 (2004) - From the Archives",
+      "url": "https://vimeo.com/114596767"
+    },
+    {
+      "title": "Eurofurence 10 (2004) - The Phantom of the Pawpet Show",
+      "url": "https://vimeo.com/117748383"
+    }
+  ],
+  "website": "https://www.eurofurence.org/EF10/"
+}

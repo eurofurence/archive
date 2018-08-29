@@ -1,0 +1,15 @@
+{
+  "title": "Eurofurence 5",
+  "conbook": "/conbooks/EF_5_Conbook.pdf",
+  "statistics": [{
+    "title": "attendees",
+    "number": "112"
+  }],
+  "videos": [
+    {
+      "title": "Eurofurence 5 (1999) - A blast from the past",
+      "url": "https://vimeo.com/114243255"
+    }
+  ],
+  "website": "https://www.eurofurence.org/EF5/"
+}

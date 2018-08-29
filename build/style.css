@@ -1,0 +1,309 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(/fonts/lato-regular.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(/fonts/lato-bold.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+  min-width: 320px;
+  background: #fff;
+  font-size: 14px;
+  color: rgba(0,0,0,.87);
+  height: 100%;
+}
+
+a {
+  background-color: transparent;
+  color: #4183c4;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.banner {
+  background-color: #005953;
+  position: absolute;
+  width: 168px;
+  height: 100%;
+}
+
+.banner img {
+  position: absolute;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'IrisUPC';
+  src: url('/fonts/upcil.ttf');
+}
+
+.logo-text {
+  color: white;
+  font-family:'IrisUPC', sans-serif;
+  font-size: 62px;
+  width: calc(100vh - 325px);
+  min-width: 360px;
+  transform: rotate(-90deg) translateX(-100vh) translateX(340px) translateY(100px);
+  transform-origin: left top 0;
+}
+
+@media (max-height: 700px) {
+  .logo-text {
+    font-family:'IrisUPC', sans-serif;
+    font-size: 62px;
+    width: 0;
+    min-width: 0;
+    transform: rotate(-90deg) translateX(-100vh) translateX(340px) translateY(75px);
+    line-height: 40px;
+    transform-origin: left top 0;
+  }
+}
+
+@media (max-height: 550px) {
+  .logo-text {
+    display: none;
+  }
+}
+
+.divider {
+  background-color: #005953;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 5px;
+}
+
+.desktop .menu {
+  margin-left: 167px;
+  margin-top: 5px;
+  width: 238px;
+  height: calc(100vh - 5px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-weight: 400;
+  font-size: 14px;
+  display: block;
+  flex-direction: column;
+}
+
+.menu a {
+  position: relative;
+  line-height: 1;
+  font-size: 14px;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  flex: 0 0 auto;
+  user-select: none;
+  padding: 13px 16px;
+  text-transform: none;
+  color: rgba(0,0,0,.87);
+  display: block;
+  background: 0 0;
+  border-top: none;
+  border-right: none;
+}
+
+.menu a:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: rgba(34,36,38,.1);
+}
+
+.menu a:hover {
+  background: rgba(0,0,0,.03);
+  color: rgba(0,0,0,.95);
+}
+
+.menu a h4 {
+  border: none;
+  margin: -2px 0 14px;
+  padding: 0;
+  font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  line-height: 19px;
+  text-transform: none;
+  color: rgba(0,0,0,.87);
+  font-size: 15px;
+  margin-top: -2px;
+}
+
+.menu a p {
+  margin: 0;
+  white-space: nowrap;
+  line-height: 19px;
+  font-size: 14px;
+}
+
+.desktop .content {
+  position: absolute;
+  left: 404px;
+  top: 5px;
+  height: calc(100vh - 5px);
+  right: 0;
+  padding-top: 2em;
+  overflow: auto;
+}
+
+.content-container {
+  width: 700px;
+  margin: auto;
+}
+
+.content h1 {
+  text-align: center;
+  color: #767676;
+  margin-top: 0;
+}
+
+.content h2 {
+  text-align: center;
+  color: rgba(0,0,0,.87);
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.content .info-box {
+  box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+  margin: 1rem 0;
+  padding: 1em;
+  border-radius: 4px;
+  border: 1px solid rgba(34,36,38,.15);
+  line-height: 21px;
+}
+
+.info-box p {
+  margin-top: 0;
+}
+
+.statistics {
+  text-align: center;
+}
+
+.statistics .value {
+  font-size: 56px;
+  line-height: 56px;
+}
+
+.statistics .label {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.content ul img {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+  margin-right: 5px;
+}
+
+.content ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.content ul li {
+  padding: 6px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.welcome {
+  padding-top: 6em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 1104px) {
+  .desktop {
+    display: none;
+  }
+
+  body {
+    overflow: auto;
+  }
+}
+
+@media (min-width: 1104px) {
+  .mobile {
+    display: none;
+  }
+}
+
+.mobile > h1 {
+  background-color: rgb(0,89,83);
+  font-family:'IrisUPC', sans-serif;
+  font-size: 3.5em;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.mobile .content-box {
+  padding-top: 65px;
+}
+
+.mobile .content {
+  margin: 0 14px;
+}
+
+.mobile .content-box > p {
+  padding-left: 1em;
+}
+
+.warning {
+  margin: 1em 0;
+  background-color: #fffaf3;
+  padding: 1em 1.5em;
+  box-shadow: inset 0 0 0 1px #c9ba9b, 0 0 0 0 transparent;
+  border-radius: 4px;
+  display: flex;
+}
+
+.warning img {
+  margin: auto 25px auto 0;
+  height: 42px;
+  opacity: .8;
+}
+
+.warning div {
+  flex: 1 1 auto;
+}
+
+.warning h3 {
+  margin: 0;
+  color: rgb(121, 75, 2);
+}
+
+.warning p {
+  color: rgb(87, 58, 8);
+  margin-top: 3px;
+  margin-bottom: 0;
+}

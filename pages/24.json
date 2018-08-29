@@ -1,0 +1,34 @@
+{
+  "title": "Eurofurence 24",
+  "theme": "Aviators - Conquer the Sky!",
+  "daily": [
+  {
+    "title": "Issue 40, Wednesday",
+    "url": "/daily/web_2018.08.22_wednesday.pdf"
+  },
+  {
+    "title": "Issue 41, Thursday",
+    "url": "/daily/web_2018.08.23_thursday.pdf"
+  },
+  {
+    "title": "Issue 42, Friday",
+    "url": "/daily/web_2018.08.24_friday.pdf"
+  },
+  {
+    "title": "Issue 43, Saturday",
+    "url": "/daily/web_2018.08.25_saturday.pdf"
+  },
+  {
+    "title": "Issue 44, Sunday",
+    "url": "/daily/web_2018.08.26_sunday.pdf"
+  }],
+  "statistics": [{
+    "title": "attendees",
+    "number": "2.911"
+  }],
+  "videos": [],
+  "photos": [],
+  "misc": [],
+  "conbook": "",
+  "website": "http://archive.eurofurence.org/EF24/"
+}

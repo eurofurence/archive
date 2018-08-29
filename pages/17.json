@@ -1,0 +1,38 @@
+{
+  "title": "Eurofurence 17",
+  "theme": "Kung Fur Hustle",
+  "statistics": [{
+    "title": "attendees",
+    "number": "1.066"
+  }],
+  "daily": [
+    {
+      "title": "Issue 11, Wednesday",
+      "url": "/daily/EF17_Wednesday_web.pdf"
+    },
+    {
+      "title": "Issue 12, Thursday",
+      "url": "/daily/EF17_Thursday_web.pdf"
+    },
+    {
+      "title": "Issue 13, Friday",
+      "url": "/daily/EF17_Friday_web.pdf"
+    },
+    {
+      "title": "Issue 14, Saturday",
+      "url": "/daily/EF17_Saturday_web.pdf"
+    },
+    {
+      "title": "Issue 15, Sunday",
+      "url": "/daily/EF17_Sunday_web.pdf"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Eurofurence 17 (2011) - A chinese fur story",
+      "url": "https://vimeo.com/115575271"
+    }
+  ],
+  "conbook": "/conbooks/EF_17_Conbook.pdf",
+  "website": "https://www.eurofurence.org/EF17/"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Eurofurence 12",
+  "theme": "The Hounds of Blackwhite Castle",
+  "statistics": [{
+    "title": "attendees",
+    "number": "405"
+  }],
+  "conbook": "/conbooks/EF_12_Conbook.pdf",
+  "videos": [
+    {
+      "title": "In Loving Memory of Samuel Conway Sr.",
+      "url": "https://vimeo.com/153213100"
+    }
+  ],
+  "website": "https://www.eurofurence.org/EF12/"
+}

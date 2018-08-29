@@ -1,0 +1,10 @@
+{
+  "title": "Eurofurence 14",
+  "theme": "From Dusk Till Dawn",
+  "statistics": [{
+    "title": "attendees",
+    "number": "777"
+  }],
+  "conbook": "/conbooks/EF_14_Conbook.pdf",
+  "website": "https://www.eurofurence.org/EF14/"
+}

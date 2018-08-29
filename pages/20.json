@@ -1,0 +1,46 @@
+{
+  "title": "Eurofurence 20",
+  "theme": "Crime Scene Berlin",
+  "daily": [
+    {
+      "title": "Issue 24, Thursday",
+      "url": "/daily/The_Daily_Eurofurence_EF20_Thursday.pdf"
+    },
+    {
+      "title": "Issue 25, Friday",
+      "url": "/daily/The_Daily_Eurofurence_EF20_Friday.pdf"
+    },
+    {
+      "title": "Issue 26, Saturday",
+      "url": "/daily/The_Daily_Eurofurence_EF20_Saturday.pdf"
+    },
+    {
+      "title": "Issue 27, Sunday",
+      "url": "/daily/The_Daily_Eurofurence_EF20_Sunday.pdf"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Eurofurence 20 (2014) - Part 1/2",
+      "url": "https://vimeo.com/112895287"
+    },
+    {
+      "title": "Eurofurence 20 (2014) - Part 2/2",
+      "url": "https://vimeo.com/113368786"
+    },
+    {
+      "title": "Keepers of the Light - Bonus Reel (EF20 / 2014)",
+      "url": "https://vimeo.com/217136238"
+    },
+    {
+      "title": "Keepers of the Light (EF20 / 2014)",
+      "url": "https://vimeo.com/217138653"
+    }
+  ],
+  "statistics": [{
+    "title": "attendees",
+    "number": "2.015"
+  }],
+  "conbook": "/conbooks/EF_20_Conbook.pdf",
+  "website": "https://www.eurofurence.org/EF20/"
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Eurofurence 18",
+  "theme": "Animalia Romana",
+  "daily": [
+    {
+      "title": "Issue 16, Thursday",
+      "url": "/daily/ef18_thursday_fin_web.pdf"
+    },
+    {
+      "title": "Issue 17, Friday",
+      "url": "/daily/ef18_friday_wip_web.pdf"
+    },
+    {
+      "title": "Issue 18, Saturday",
+      "url": "/daily/ef18_saturday_web.pdf"
+    },
+    {
+      "title": "Issue 19, Sunday",
+      "url": "/daily/ef18_sunday_web.pdf"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Eurofurence 18 (2012) - Rock'n'Rome",
+      "url": "https://vimeo.com/106901546"
+    },
+    {
+      "title": "Eurofurence 18 (2012) - Motorfurs Meet",
+      "url": "https://vimeo.com/115500578"
+    },
+    {
+      "title": "Eurofurence 18 (2012) - Jasper goes on Air",
+      "url": "https://vimeo.com/115500776"
+    },
+    {
+      "title": "Eurofurence 18 (2012) - Fursuit Parade",
+      "url": "https://vimeo.com/115500847"
+    },
+    {
+      "title": "Eurofurence 18 (2012) - Veni Vidi Furry",
+      "url": "https://vimeo.com/117698368"
+    }
+  ],
+  "statistics": [{
+    "title": "attendees",
+    "number": "1.278"
+  }],
+  "conbook": "/conbooks/EF_18_Conbook.pdf",
+  "website": "https://www.eurofurence.org/EF18/"
+}

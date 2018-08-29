@@ -1,29 +1,8 @@
 {
   "name": "ef-archive",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-router-dom": "^4.2.0",
-    "semantic-ui-css": "^2.2.12",
-    "semantic-ui-react": "^0.71.5"
-  },
-  "devDependencies": {
-    "purify-css": "^1.2.5",
-    "react-scripts": "1.0.11",
-    "react-snapshot": "^1.2.0"
-  },
-  "reactSnapshot": {
-    "exclude": [
-      "/daily",
-      "/conbooks"
-    ]
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot && node ./scripts/clearReact && node ./scripts/purifyCss",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "mustache": "^2.3.2"
   }
 }

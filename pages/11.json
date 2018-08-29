@@ -1,0 +1,32 @@
+{
+  "title": "Eurofurence 11",
+  "theme": "Songs of the Old Ages",
+  "statistics": [{
+    "title": "attendees",
+    "number": "380"
+  }],
+  "conbook": "/conbooks/EF_11_Conbook.pdf",
+  "videos": [
+    {
+      "title": "Eurofurence 11 (2005) - The March of Cambreadth",
+      "url": "https://vimeo.com/114473873"
+    },
+    {
+      "title": "Eurofurence 11 (2005) - Songs of the Old Ages (Part 1/2)",
+      "url": "https://vimeo.com/115447474"
+    },
+    {
+      "title": "Eurofurence 11 (2005) - Songs of the Old Ages (Part 2/2)",
+      "url": "https://vimeo.com/115452098"
+    },
+    {
+      "title": "Eurofurence 11 (2005) - WORK PRINT - Heather Alexander",
+      "url": "https://vimeo.com/115485175"
+    },
+    {
+      "title": "Eurofurence 11 (2005) - Short: Pup on a Wall",
+      "url": "https://vimeo.com/115492740"
+    }
+  ],
+  "website": "https://www.eurofurence.org/EF11/"
+}

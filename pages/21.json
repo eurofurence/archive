@@ -1,0 +1,42 @@
+{
+  "title": "Eurofurence 21",
+  "theme": "Greenhouse World",
+  "daily": [
+    {
+      "title": "Issue 28, Thursday",
+      "url": "/daily/The_Daily_Eurofurence_EF21_Thursday.pdf"
+    },
+    {
+      "title": "Issue 29, Friday",
+      "url": "/daily/The_Daily_Eurofurence_EF21_Friday.pdf"
+    },
+    {
+      "title": "Issue 30, Saturday",
+      "url": "/daily/The_Daily_Eurofurence_EF21_Saturday.pdf"
+    },
+    {
+      "title": "Issue 31, Sunday",
+      "url": "/daily/The_Daily_Eurofurence_EF21_Sunday.pdf"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Eurofurence 21 (2015) - Part 1/2",
+      "url": "https://vimeo.com/148481610"
+    },
+    {
+      "title": "Eurofurence 21 (2015) - Part 2/2",
+      "url": "https://vimeo.com/149066017"
+    },
+    {
+      "title": "Anatomy of a Pawpetshow",
+      "url": "https://vimeo.com/218944499"
+    }
+  ],
+  "statistics": [{
+    "title": "attendees",
+    "number": "2.095"
+  }],
+  "conbook": "/conbooks/EF_21_Conbook.pdf",
+  "website": "https://www.eurofurence.org/EF21/"
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Eurofurence 23",
+  "theme": "Ancient Egypt",
+  "daily": [
+    {
+      "title": "Issue 36, Thursday",
+      "url": "/daily/dailyEF23_17aug17.pdf"
+    },
+    {
+      "title": "Issue 37, Friday",
+      "url": "/daily/dailyEF23_18aug17.pdf"
+    },
+    {
+      "title": "Issue 38, Saturday",
+      "url": "/daily/dailyEF23_19aug17.pdf"
+    },
+    {
+      "title": "Issue 39, Sunday",
+      "url": "/daily/dailyEF23_20aug17.pdf"
+    }
+  ],
+  "statistics": [{
+    "title": "attendees",
+    "number": "2.853"
+  }],
+  "videos": [
+    {
+      "title": "Eurofurence 23 (2017) - Part 1/2",
+      "url": "https://vimeo.com/250978529"
+    },
+    {
+      "title": "Eurofurence 23 (2017) - Part 2/2",
+      "url": "https://vimeo.com/250977235"
+    },
+    {
+      "title": "Foxes & Peppers in Concert",
+      "url": "https://vimeo.com/248911188"
+    }
+  ],
+  "photos": [],
+  "misc": [],
+  "conbook": "/conbooks/EF_23_Conbook.pdf",
+  "website": "https://www.eurofurence.org/EF23/"
+}

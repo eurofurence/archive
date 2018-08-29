@@ -1,0 +1,38 @@
+{
+  "title": "Eurofurence 16",
+  "theme": "Serengeti",
+  "statistics": [{
+    "title": "attendees",
+    "number": "973"
+  }],
+  "daily": [
+    {
+      "title": "Issue 6, Wednesday",
+      "url": "/daily/EF16-The_Daily_Eurofurence-06-Wednesday.pdf"
+    },
+    {
+      "title": "Issue 7, Thursday",
+      "url": "/daily/EF16-The_Daily_Eurofurence-07-Thursday.pdf"
+    },
+    {
+      "title": "Issue 8, Friday",
+      "url": "/daily/EF16-The_Daily_Eurofurence-08-Friday.pdf"
+    },
+    {
+      "title": "Issue 9, Saturday",
+      "url": "/daily/EF16-The_Daily_Eurofurence-09-Saturday.pdf"
+    },
+    {
+      "title": "Issue 10, Sunday",
+      "url": "/daily/EF16-The_Daily_Eurofurence-10-Sunday.pdf"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Eurofurence 16 (2010) - Something is Bigger now!",
+      "url": "https://vimeo.com/117698369"
+    }
+  ],
+  "conbook": "/conbooks/EF_16_Conbook.pdf",
+  "website": "https://www.eurofurence.org/EF16/"
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Eurofurence 22",
+  "theme": "Back to the 80s",
+  "daily": [
+    {
+      "title": "Issue 32, Thursday",
+      "url": "/daily/ef22_Thursday_web.pdf"
+    },
+    {
+      "title": "Issue 33, Friday",
+      "url": "/daily/ef22_Friday_web.pdf"
+    },
+    {
+      "title": "Issue 34, Saturday",
+      "url": "/daily/ef22_Saturday_web.pdf"
+    },
+    {
+      "title": "Issue 35, Sunday",
+      "url": "/daily/ef22_Sunday_web.pdf"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Goldeneyes Prologue",
+      "url": "https://vimeo.com/182965292"
+    },
+    {
+      "title": "Eurofurence 22 (2016) - Part 1/2",
+      "url": "https://vimeo.com/189943372"
+    },
+    {
+      "title": "Eurofurence 22 (2016) - Part 2/2",
+      "url": "https://vimeo.com/190731922"
+    },
+    {
+      "title": "Charity Concert",
+      "url": "https://vimeo.com/233568598"
+    }
+  ],
+  "statistics": [{
+    "title": "attendees",
+    "number": "2.573"
+  }],
+  "conbook": "/conbooks/EF_22_Conbook.pdf",
+  "website": "https://www.eurofurence.org/EF22/"
+}

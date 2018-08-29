@@ -1,0 +1,15 @@
+{
+  "title": "Eurofurence 3",
+  "conbook": "/conbooks/EF_3_Conbook.pdf",
+  "statistics": [{
+    "title": "attendees",
+    "number": "59"
+  }],
+  "videos": [
+    {
+      "title": "Eurofurence 3 (1997) - The Lost Tape",
+      "url": "https://vimeo.com/123153383"
+    }
+  ],
+  "website": "https://www.eurofurence.org/EF3/index2.html"
+}

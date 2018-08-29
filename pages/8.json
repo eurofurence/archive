@@ -1,0 +1,10 @@
+{
+  "title": "Eurofurence 8",
+  "theme": "The F.I.A.",
+  "statistics": [{
+    "title": "attendees",
+    "number": "260"
+  }],
+  "conbook": "/conbooks/EF_8_Conbook.pdf",
+  "website": "https://www.eurofurence.org/EF8/"
+}

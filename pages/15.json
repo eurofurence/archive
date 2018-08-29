@@ -1,0 +1,42 @@
+{
+  "title": "Eurofurence 15",
+  "theme": "1001 Arabian Nights",
+  "statistics": [{
+    "title": "attendees",
+    "number": "955"
+  }],
+  "daily": [
+    {
+      "title": "Issue 1, Wednesday",
+      "url": "/daily/EF15-The_Daily_Eurofurence-01-Wednesday.pdf"
+    },
+    {
+      "title": "Issue 2, Thursday",
+      "url": "/daily/EF15-The_Daily_Eurofurence-02-Thursday.pdf"
+    },
+    {
+      "title": "Issue 3, Friday",
+      "url": "/daily/EF15-The_Daily_Eurofurence-03-Friday.pdf"
+    },
+    {
+      "title": "Issue 4, Saturday",
+      "url": "/daily/EF15-The_Daily_Eurofurence-04-Saturday.pdf"
+    },
+    {
+      "title": "Issue 5, Sunday",
+      "url": "/daily/EF15-The_Daily_Eurofurence-05-Sunday.pdf"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Eurofurence 15 (2009) - Part 1/2",
+      "url": "https://vimeo.com/111953390"
+    },
+    {
+      "title": "Eurofurence 15 (2009) - Part 2/2",
+      "url": "https://vimeo.com/111980048"
+    }
+  ],
+  "conbook": "/conbooks/EF_15_Conbook.pdf",
+  "website": "https://www.eurofurence.org/EF15/"
+}

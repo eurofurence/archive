@@ -1,0 +1,15 @@
+{
+  "title": "Eurofurence 4",
+  "conbook": "/conbooks/EF_4_Conbook.pdf",
+  "statistics": [{
+    "title": "attendees",
+    "number": "94"
+  }],
+  "videos": [
+    {
+      "title": "Eurofurence 4 (1998) - Pure Nostalgia",
+      "url": "https://vimeo.com/119568802"
+    }
+  ],
+  "website": "https://www.eurofurence.org/EF4/"
+}
