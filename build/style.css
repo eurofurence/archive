@@ -230,6 +230,21 @@ a, a:hover {
   font-weight: 700;
 }
 
+.content ul.photos {
+  margin-top: 10px;
+}
+
+.content ul.photos li {
+  display: inline;
+}
+
+.content ul.photos li img {
+  width: 250px;
+  height: auto;
+  border: 1px solid #333;
+  box-shadow: 2px 2px 3px #777;
+}
+
 .welcome {
   padding-top: 6em;
 }

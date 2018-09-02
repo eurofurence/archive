@@ -27,7 +27,15 @@
     "number": "2.911"
   }],
   "videos": [],
-  "photos": [],
+  "photos": [{
+    "title": "Group Photo",
+    "url": "https://photo.eurofurence.org/EF24-ConventionGroupPhoto.jpg",
+    "thumb": "https://photo.eurofurence.org/EF24-ConventionGroupPhoto.thumb.jpg"
+  }, {
+    "title": "Fursuit Group Photo",
+    "url": "https://photo.eurofurence.org/EF24-FursuitGroupPhoto.jpg",
+    "thumb": "https://photo.eurofurence.org/EF24-FursuitGroupPhoto.thumb.jpg"
+  }],
   "misc": [],
   "conbook": "",
   "website": "http://archive.eurofurence.org/EF24/"

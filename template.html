@@ -81,15 +81,15 @@
                   </li>
                 {{/videos.length}}
                 {{#photos.length}}
-                  <li>
-                    <img src="/images/photo.svg" alt="Photos" />
-                    Photos
-                    <ul>
-                      {{#photos}}
-                        <li><a href="{{{url}}}">{{title}}</a></li>
-                      {{/photos}}
-                    </ul>
-                  </li>
+                <li>
+                  <img src="/images/camera.svg" alt="Photos" />
+                  Photos
+                  <ul class="photos">
+                    {{#photos}}
+                      <li><a href="{{{url}}}" title="{{title}}"><img src="{{{thumb}}}" alt="{{title}}" /></a></li>
+                    {{/photos}}
+                  </ul>
+                </li>
                 {{/photos.length}}
                 {{#misc.length}}
                   <li>
@@ -167,11 +167,11 @@
                 {{/videos.length}}
                 {{#photos.length}}
                   <li>
-                    <img src="/images/photo.svg" alt="Photos" />
+                    <img src="/images/camera.svg" alt="Photos" />
                     Photos
-                    <ul>
+                    <ul class="photos">
                       {{#photos}}
-                        <li><a href="{{{url}}}">{{title}}</a></li>
+                        <li><a href="{{{url}}}" title="{{title}}"><img src="{{{thumb}}}" alt="{{title}}" /></a></li>
                       {{/photos}}
                     </ul>
                   </li>
