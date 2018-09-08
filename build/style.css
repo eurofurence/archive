@@ -37,15 +37,32 @@ a, a:hover {
 
 .banner {
   background-color: #005953;
-  position: absolute;
-  width: 168px;
-  height: 100%;
 }
 
-.banner img {
-  position: absolute;
-  bottom: 20px;
-  cursor: pointer;
+@media (max-width: 1104px) {
+  .banner {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .banner img {
+    display: none;
+  }
+}
+
+@media (min-width: 1104px) {
+  .banner {
+    position: absolute;
+    width: 168px;
+    height: 100%;
+  }
+  
+  .banner img {
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+  }
 }
 
 @font-face {
@@ -56,14 +73,39 @@ a, a:hover {
 .logo-text {
   color: white;
   font-family:'IrisUPC', sans-serif;
-  font-size: 62px;
-  width: calc(100vh - 325px);
-  min-width: 360px;
-  transform: rotate(-90deg) translateX(-100vh) translateX(340px) translateY(100px);
-  transform-origin: left top 0;
 }
 
-@media (max-height: 700px) {
+@media (max-width: 1104px) {
+  .logo-text {
+    font-size: 3.5em;
+    z-index: 1;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1104px) {
+  .logo-text {
+    font-size: 62px;
+    width: calc(100vh - 325px);
+    min-width: 360px;
+    transform: rotate(-90deg) translateX(-100vh) translateX(340px) translateY(100px);
+    transform-origin: left top 0;
+  }
+
+  .divider {
+    background-color: #005953;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 5px;
+  }
+  
+}
+
+@media (max-height: 700px) and (min-width: 1104px) {
   .logo-text {
     font-family:'IrisUPC', sans-serif;
     font-size: 62px;
@@ -75,32 +117,32 @@ a, a:hover {
   }
 }
 
-@media (max-height: 550px) {
+@media (max-height: 550px) and (min-width: 1104px) {
   .logo-text {
     display: none;
   }
 }
 
-.divider {
-  background-color: #005953;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 5px;
-}
+@media (min-width: 1104px) {
+  .menu {
+    margin-left: 167px;
+    margin-top: 5px;
+    width: 238px;
+    height: calc(100vh - 5px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+  }
 
-.desktop .menu {
-  margin-left: 167px;
-  margin-top: 5px;
-  width: 238px;
-  height: calc(100vh - 5px);
-  overflow-x: hidden;
-  overflow-y: auto;
-  font-weight: 400;
-  font-size: 14px;
-  display: block;
-  flex-direction: column;
+  .content-container {
+    width: 700px;
+    margin: auto;
+  }
 }
 
 .menu a {
@@ -153,21 +195,6 @@ a, a:hover {
   white-space: nowrap;
   line-height: 19px;
   font-size: 14px;
-}
-
-.desktop .content {
-  position: absolute;
-  left: 404px;
-  top: 5px;
-  height: calc(100vh - 5px);
-  right: 0;
-  padding-top: 2em;
-  overflow: auto;
-}
-
-.content-container {
-  width: 700px;
-  margin: auto;
 }
 
 .content h1 {
@@ -254,43 +281,17 @@ a, a:hover {
 }
 
 @media (max-width: 1104px) {
-  .desktop {
-    display: none;
-  }
-
   body {
     overflow: auto;
   }
-}
 
-@media (min-width: 1104px) {
-  .mobile {
-    display: none;
+  .content {
+    padding: 65px 14px 0 14px;
   }
-}
-
-.mobile > h1 {
-  background-color: rgb(0,89,83);
-  font-family:'IrisUPC', sans-serif;
-  font-size: 3.5em;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  margin: 0;
-  text-align: center;
-  color: white;
-}
-
-.mobile .content-box {
-  padding-top: 65px;
-}
-
-.mobile .content {
-  margin: 0 14px;
-}
-
-.mobile .content-box > p {
-  padding-left: 1em;
+  
+  .year-select-note {
+    padding-left: 1em;
+  }
 }
 
 .warning {
@@ -321,4 +322,24 @@ a, a:hover {
   color: rgb(87, 58, 8);
   margin-top: 3px;
   margin-bottom: 0;
+}
+
+@media (min-width: 1104px) {
+  .content {
+    position: absolute;
+    left: 404px;
+    top: 5px;
+    height: calc(100vh - 5px);
+    right: 0;
+    padding-top: 2em;
+    overflow: auto;
+  }
+
+  .year-select-note {
+    display: none;
+  }
+
+  .warning {
+    display: none;
+  }
 }

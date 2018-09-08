@@ -8,7 +8,6 @@
     <title>Eurofurence Archive</title>
   </head>
   <body>
-    <div class="desktop">
       <div class="banner">
         <a href="/">
           <img src="/images/ef-logo.png" alt="Logo" />
@@ -18,14 +17,6 @@
         </div>
       </div>
       <div class="divider"></div>
-      <div class="menu">
-        {{#years}}
-          <a href="/{{number}}/">
-            <h4>Eurofurence {{number}}</h4>
-            <p>{{theme}}</p>
-          </a>
-        {{/years}}
-      </div>
       <div class="content">
         <div class="content-container">
           {{^content}}
@@ -44,6 +35,13 @@
               </div>
             {{/statistics}}
             <div class="info-box">
+              <div class="warning">
+                <img src="/images/warning.svg" alt="Warning" />
+                <div>
+                  <h3>Large Files</h3>
+                  <p>The following links contain big PDF and video files! Please mind your data plan and storage capacity!</p>
+                </div>
+              </div>
               <p>The following resources are available for you to enjoy:</p>
               <ul>
                 {{#website}}
@@ -107,105 +105,19 @@
           {{/content}}
         </div>
       </div>
-    </div>
-    <div class="mobile">
-      <h1>Eurofurence Archive</h1>
-      <div class="content-box">
-        <div class="content">
-          {{#content}}
-            <h1>{{title}}</h1>
-            <h2>{{theme}}</h1>
-            {{#statistics}}
-              <div class="statistics">
-                <div class="value">{{number}}</div>
-                <div class="label">{{title}}</div>
-              </div>
-            {{/statistics}}
-            <div class="info-box">
-              <div class="warning">
-                <img src="/images/warning.svg" alt="Warning" />
-                <div>
-                  <h3>Large Files</h3>
-                  <p>The following links contain big PDF and video files! Please mind your data plan and storage capacity!</p>
-                </div>
-              </div>
-              <p>The following resources are available for you to enjoy:</p>
-              <ul>
-                {{#website}}
-                  <li>
-                    <img src="/images/desktop.svg" alt="Website" />
-                    <a href="{{{website}}}">Website</a>
-                  </li>
-                {{/website}}
-                {{#conbook}}
-                  <li>
-                    <img src="/images/book.svg" alt="Conbook" />
-                    <a href="{{{conbook}}}">Conbook</a>
-                  </li>
-                {{/conbook}}
-                {{#daily.length}}
-                  <li>
-                    <img src="/images/newspaper.svg" alt="Daily Eurofurence" />
-                    Daily Eurofurence
-                    <ul>
-                      {{#daily}}
-                        <li><a href="{{{url}}}">{{title}}</a></li>
-                      {{/daily}}
-                    </ul>
-                  </li>
-                {{/daily.length}}
-                {{#videos.length}}
-                  <li>
-                    <img src="/images/video.svg" alt="Videos" />
-                    Videos
-                    <ul>
-                      {{#videos}}
-                        <li><a href="{{{url}}}">{{title}}</a></li>
-                      {{/videos}}
-                    </ul>
-                  </li>
-                {{/videos.length}}
-                {{#photos.length}}
-                  <li>
-                    <img src="/images/camera.svg" alt="Photos" />
-                    Photos
-                    <ul class="photos">
-                      {{#photos}}
-                        <li><a href="{{{url}}}" title="{{title}}"><img src="{{{thumb}}}" alt="{{title}}" /></a></li>
-                      {{/photos}}
-                    </ul>
-                  </li>
-                {{/photos.length}}
-                {{#misc.length}}
-                  <li>
-                    <img src="/images/external.svg" alt="Other" />
-                    Other
-                    <ul>
-                      {{#misc}}
-                        <li><a href="{{{url}}}">{{title}}</a></li>
-                      {{/misc}}
-                    </ul>
-                  </li>
-                {{/misc.length}}
-              </ul>
-            </div>
-          {{/content}}
-        </div>
-        {{^content}}
-        <p>Please select a year:</p>
-        {{/content}}
-        {{#content}}
-        <p>Also check out the other years</p>
-        {{/content}}
-        <div class="menu">
-          {{#years}}
-            <a href="/{{number}}/">
-              <h4>Eurofurence {{number}}</h4>
-              <p>{{theme}}</p>
-            </a>
-          {{/years}}
-        </div>
+      {{^content}}
+      <p class="year-select-note">Please select a year:</p>
+      {{/content}}
+      {{#content}}
+      <p class="year-select-note">Also check out the other years</p>
+      {{/content}}
+      <div class="menu">
+        {{#years}}
+          <a href="/{{number}}/">
+            <h4>Eurofurence {{number}}</h4>
+            <p>{{theme}}</p>
+          </a>
+        {{/years}}
       </div>
-    </div>
   </body>
 </html>
