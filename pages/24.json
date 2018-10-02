@@ -26,7 +26,16 @@
     "title": "attendees",
     "number": "2.911"
   }],
-  "videos": [],
+  "videos": [{
+    "title": "Foxes And Peppers in Concert live",
+    "url": "https://www.youtube.com/watch?v=yrzXwUSAGBQ"
+  }, {
+    "title": "Uncle Kage's Story Hour / Tien vs. Kage",
+    "url": "https://www.youtube.com/watch?v=Q7xzIrjRyoY"
+  }, {
+    "title": "Grandma Kage's Story Hour",
+    "url": "https://www.youtube.com/watch?v=wCUJQSyzltQ"
+  }],
   "photos": [{
     "title": "Group Photo",
     "url": "https://photo.eurofurence.org/EF24-ConventionGroupPhoto.jpg",
