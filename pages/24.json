@@ -2,50 +2,60 @@
   "title": "Eurofurence 24",
   "theme": "Aviators - Conquer the Sky!",
   "daily": [
-  {
-    "title": "Issue 40, Wednesday",
-    "url": "/daily/web_2018.08.22_wednesday.pdf"
-  },
-  {
-    "title": "Issue 41, Thursday",
-    "url": "/daily/web_2018.08.23_thursday.pdf"
-  },
-  {
-    "title": "Issue 42, Friday",
-    "url": "/daily/web_2018.08.24_friday.pdf"
-  },
-  {
-    "title": "Issue 43, Saturday",
-    "url": "/daily/web_2018.08.25_saturday.pdf"
-  },
-  {
-    "title": "Issue 44, Sunday",
-    "url": "/daily/web_2018.08.26_sunday.pdf"
-  }],
-  "statistics": [{
-    "title": "attendees",
-    "number": "2.911"
-  }],
-  "videos": [{
-    "title": "Foxes And Peppers in Concert live",
-    "url": "https://www.youtube.com/watch?v=yrzXwUSAGBQ"
-  }, {
-    "title": "Uncle Kage's Story Hour / Tien vs. Kage",
-    "url": "https://www.youtube.com/watch?v=Q7xzIrjRyoY"
-  }, {
-    "title": "Grandma Kage's Story Hour",
-    "url": "https://www.youtube.com/watch?v=wCUJQSyzltQ"
-  }],
-  "photos": [{
-    "title": "Group Photo",
-    "url": "https://photo.eurofurence.org/EF24-ConventionGroupPhoto.jpg",
-    "thumb": "https://photo.eurofurence.org/EF24-ConventionGroupPhoto.thumb.jpg"
-  }, {
-    "title": "Fursuit Group Photo",
-    "url": "https://photo.eurofurence.org/EF24-FursuitGroupPhoto.jpg",
-    "thumb": "https://photo.eurofurence.org/EF24-FursuitGroupPhoto.thumb.jpg"
-  }],
+    {
+      "title": "Issue 40, Wednesday",
+      "url": "/daily/web_2018.08.22_wednesday.pdf"
+    },
+    {
+      "title": "Issue 41, Thursday",
+      "url": "/daily/web_2018.08.23_thursday.pdf"
+    },
+    {
+      "title": "Issue 42, Friday",
+      "url": "/daily/web_2018.08.24_friday.pdf"
+    },
+    {
+      "title": "Issue 43, Saturday",
+      "url": "/daily/web_2018.08.25_saturday.pdf"
+    },
+    {
+      "title": "Issue 44, Sunday",
+      "url": "/daily/web_2018.08.26_sunday.pdf"
+    }
+  ],
+  "statistics": [
+    {
+      "title": "attendees",
+      "number": "2.911"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Foxes And Peppers in Concert live",
+      "url": "https://www.youtube.com/watch?v=yrzXwUSAGBQ"
+    },
+    {
+      "title": "Uncle Kage's Story Hour / Tien vs. Kage",
+      "url": "https://www.youtube.com/watch?v=Q7xzIrjRyoY"
+    },
+    {
+      "title": "Grandma Kage's Story Hour",
+      "url": "https://www.youtube.com/watch?v=wCUJQSyzltQ"
+    }
+  ],
+  "photos": [
+    {
+      "title": "Group Photo",
+      "url": "https://photo.eurofurence.org/EF24-ConventionGroupPhoto.jpg",
+      "thumb": "https://photo.eurofurence.org/EF24-ConventionGroupPhoto.thumb.jpg"
+    },
+    {
+      "title": "Fursuit Group Photo",
+      "url": "https://photo.eurofurence.org/EF24-FursuitGroupPhoto.jpg",
+      "thumb": "https://photo.eurofurence.org/EF24-FursuitGroupPhoto.thumb.jpg"
+    }
+  ],
   "misc": [],
-  "conbook": "",
+  "conbook": "/conbooks/EF_24_Conbook.pdf",
   "website": "http://archive.eurofurence.org/EF24/"
 }
