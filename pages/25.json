@@ -25,6 +25,28 @@
       "number": "3.414"
     }
   ],
+  "videos": [
+    {
+      "title": "Opening Ceremonies",
+      "url": "https://www.youtube.com/watch?v=ddEymyR-exQ"
+    },
+    {
+      "title": "Uncle Kage's Story Hour / Kage vs Tien Lung",
+      "url": "https://www.youtube.com/watch?v=Ya78QXakxEA"
+    }
+  ],
+  "photos": [
+    {
+      "title": "Group Photo",
+      "url": "https://photo.eurofurence.org/EF25-ConventionGroupPhoto.jpg",
+      "thumb": "https://photo.eurofurence.org/EF25-ConventionGroupPhoto.thumb.jpg"
+    },
+    {
+      "title": "Fursuit Group Photo",
+      "url": "https://photo.eurofurence.org/EF25-FursuitGroupPhoto.jpg",
+      "thumb": "https://photo.eurofurence.org/EF25-FursuitGroupPhoto.thumb.jpg"
+    }
+  ],
   "conbook": "/conbooks/EF_25_Conbook.pdf",
   "website": "http://eurofurence.org/EF25/"
 }
