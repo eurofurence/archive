@@ -1,5 +1,11 @@
 {
   "orderNr": 25.5,
   "title": "Eurofurence Online 2020",
-  "website": "https://www.eurofurence.org/EFO2020/"
+  "website": "https://www.eurofurence.org/EFO2020/",
+  "daily": [
+    {
+      "title": "Issue 49, Friday",
+      "url": "/daily/EFO_2020.08.21_friday_issue.49.pdf"
+    }
+  ]
 }
