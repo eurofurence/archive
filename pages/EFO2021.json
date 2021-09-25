@@ -1,0 +1,19 @@
+{
+  "orderNr": 25.2,
+  "title": "Eurofurence Online 2021",
+  "website": "https://www.eurofurence.org/EFO2021/",
+  "daily": [
+    {
+      "title": "Issue 52, Friday",
+      "url": "/daily/EFO_2021.09.24_friday_issue.52.pdf"
+    },
+    {
+      "title": "Issue 53, Saturday",
+      "url": "/daily/EFO_2021.09.25_friday_issue.53.pdf"
+    },
+    {
+      "title": "Issue 54, Sunday",
+      "url": "/daily/EFO_2021.09.26_friday_issue.54.pdf"
+    }
+  ]
+}
