@@ -1,6 +1,12 @@
 {
   "title": "Eurofurence 23",
   "theme": "Ancient Egypt",
+  "year": "2017",
+  "date": {
+    "start": "2017-08-16",
+    "end": "2017-08-20"
+  },
+  "location": "Berlin, Germany",
   "daily": [
     {
       "title": "Issue 36, Thursday",
@@ -19,11 +25,12 @@
       "url": "/daily/EF23_2017.08.20_sunday_issue.39.pdf"
     }
   ],
-  "statistics": [{
-    "title": "attendees",
-    "number": "2.853"
-  }],
+  "attendees": "2.853",
   "videos": [
+    {
+      "title": "The Skies Of Astar",
+      "url": "https://www.youtube.com/watch?v=7thVP7UOZBA"
+    },
     {
       "title": "Eurofurence 23 (2017) - Part 1/2",
       "url": "https://vimeo.com/250978529"

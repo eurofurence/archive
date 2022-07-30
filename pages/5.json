@@ -1,10 +1,13 @@
 {
   "title": "Eurofurence 5",
   "conbook": "/conbooks/EF_5_Conbook.pdf",
-  "statistics": [{
-    "title": "attendees",
-    "number": "112"
-  }],
+  "year": "1999",
+  "date": {
+    "start": "1999-07-22",
+    "end": "1999-07-25"
+  },
+  "location": "Berlin, Germany",
+  "attendees": "112",
   "videos": [
     {
       "title": "Eurofurence 5 (1999) - A blast from the past",

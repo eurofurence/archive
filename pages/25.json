@@ -1,6 +1,12 @@
 {
   "title": "Eurofurence 25",
   "theme": "Fractures in Time",
+  "year": "2019",
+  "date": {
+    "start": "2019-08-14",
+    "end": "2019-08-18"
+  },
+  "location": "Berlin, Germany",
   "daily": [
     {
       "title": "Issue 45, Thursday",
@@ -19,12 +25,7 @@
       "url": "/daily/EF25_2019.08.18_sunday_issue.48.pdf"
     }
   ],
-  "statistics": [
-    {
-      "title": "attendees",
-      "number": "3.414"
-    }
-  ],
+  "attendees": "3.414",
   "videos": [
     {
       "title": "Opening Ceremonies",

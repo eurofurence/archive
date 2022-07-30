@@ -1,6 +1,12 @@
 {
   "orderNr": 25.2,
   "title": "Eurofurence Online 2021",
+  "year": "2021",
+  "date": {
+    "start": "2021-09-23",
+    "end": "2021-09-26"
+  },
+  "location": "Worldwide",
   "website": "https://www.eurofurence.org/EFO2021/",
   "daily": [
     {
@@ -14,6 +20,80 @@
     {
       "title": "Issue 54, Sunday",
       "url": "/daily/EFO_2021.09.26_friday_issue.54.pdf"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Opening Ceremonies",
+      "url": "https://www.youtube.com/watch?v=gj5vxtMlxeI"
+    },
+    {
+      "title": "Clearing Out The Attic",
+      "url": "https://www.youtube.com/watch?v=JqqqBd4MLnU"
+    },
+    {
+      "title": "Meet the Guest of Honour",
+      "url": "https://www.youtube.com/watch?v=i96yiabDm74"
+    },
+    {
+      "title": "Breakfast with Cheetahs",
+      "url": "https://www.youtube.com/watch?v=LzGTldK1Cho"
+    },
+    {
+      "title": "Virtual Concert Part 1 - Rhubarb & Cosmik",
+      "url": "https://www.youtube.com/watch?v=TUu37zSkJ1o"
+    },
+    {
+      "title": "Virtual Concert Part 2 - Fox Amoore",
+      "url": "https://www.youtube.com/watch?v=Lr89TQbasxw"
+    },
+    {
+      "title": "Virtual Concert Part 3 - Peppery Coyote",
+      "url": "https://www.youtube.com/watch?v=yR3NV03dTMA"
+    },
+    {
+      "title": "About Wine And Whining",
+      "url": "https://www.youtube.com/watch?v=MpIZmJdfNbg"
+    },
+    {
+      "title": "Friday Shout Outs",
+      "url": "https://www.youtube.com/watch?v=XjN9l_5E_aA"
+    },
+    {
+      "title": "Fursuit Theatre Interview",
+      "url": "https://www.youtube.com/watch?v=0H2MqCTFNVE"
+    },
+    {
+      "title": "The Making Of Juno Rising REDUX",
+      "url": "https://www.youtube.com/watch?v=QJU6b2JC8yg"
+    },
+    {
+      "title": "The Pawpet Show Interviews",
+      "url": "https://www.youtube.com/watch?v=rbPvWdjNLvM"
+    },
+    {
+      "title": "Uncle Kage's Story Hour",
+      "url": "https://www.youtube.com/watch?v=9QYIWtnNYtU"
+    },
+    {
+      "title": "Furscience’s Fun Furry Fandom FAQs",
+      "url": "https://www.youtube.com/watch?v=gLY-m6DHeGQ"
+    },
+    {
+      "title": "Cheetah Preservation Foundation Ranch Tour",
+      "url": "https://www.youtube.com/watch?v=7bwWSfeS0io"
+    },
+    {
+      "title": "DJ MaCid",
+      "url": "https://www.youtube.com/watch?v=DwFHpgMUE9U"
+    },
+    {
+      "title": "CPF - What has happened the past Year",
+      "url": "https://www.youtube.com/watch?v=oXXzsfZuPmM"
+    },
+    {
+      "title": "Alector Fencer's MYRE",
+      "url": "https://www.youtube.com/watch?v=fQpDikrzNok"
     }
   ]
 }

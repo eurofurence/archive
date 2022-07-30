@@ -1,6 +1,12 @@
 {
   "title": "Eurofurence 18",
   "theme": "Animalia Romana",
+  "year": "2012",
+  "date": {
+    "start": "2012-08-29",
+    "end": "2012-09-02"
+  },
+  "location": "Magdeburg, Germany",
   "daily": [
     {
       "title": "Issue 16, Thursday",
@@ -41,10 +47,7 @@
       "url": "https://vimeo.com/117698368"
     }
   ],
-  "statistics": [{
-    "title": "attendees",
-    "number": "1.278"
-  }],
+  "attendees": "1.278",
   "conbook": "/conbooks/EF_18_Conbook.pdf",
   "website": "https://www.eurofurence.org/EF18/"
 }

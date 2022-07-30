@@ -1,10 +1,13 @@
 {
   "title": "Eurofurence 16",
   "theme": "Serengeti",
-  "statistics": [{
-    "title": "attendees",
-    "number": "973"
-  }],
+  "year": "2010",
+  "date": {
+    "start": "2010-09-01",
+    "end": "2010-09-05"
+  },
+  "location": "Magdeburg, Germany",
+  "attendees": "973",
   "daily": [
     {
       "title": "Issue 6, Wednesday",

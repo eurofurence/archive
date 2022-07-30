@@ -1,10 +1,13 @@
 {
   "title": "Eurofurence 11",
   "theme": "Songs of the Old Ages",
-  "statistics": [{
-    "title": "attendees",
-    "number": "380"
-  }],
+  "year": "2005",
+  "date": {
+    "start": "2005-07-21",
+    "end": "2005-07-24"
+  },
+  "location": "Nuremberg, Germany",
+  "attendees": "380",
   "conbook": "/conbooks/EF_11_Conbook.pdf",
   "videos": [
     {

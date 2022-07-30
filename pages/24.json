@@ -1,6 +1,12 @@
 {
   "title": "Eurofurence 24",
   "theme": "Aviators - Conquer the Sky!",
+  "year": "2018",
+  "date": {
+    "start": "2018-08-22",
+    "end": "2018-08-26"
+  },
+  "location": "Berlin, Germany",
   "daily": [
     {
       "title": "Issue 40, Wednesday",
@@ -23,13 +29,12 @@
       "url": "/daily/EF24_2018.08.26_sunday_issue.44.pdf"
     }
   ],
-  "statistics": [
-    {
-      "title": "attendees",
-      "number": "2.911"
-    }
-  ],
+  "attendees": "2.911",
   "videos": [
+    {
+      "title": "Juno Rising",
+      "url": "https://www.youtube.com/watch?v=GkZXa3P_9o8"
+    },
     {
       "title": "Foxes And Peppers in Concert live",
       "url": "https://www.youtube.com/watch?v=yrzXwUSAGBQ"

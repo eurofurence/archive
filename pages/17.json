@@ -1,10 +1,13 @@
 {
   "title": "Eurofurence 17",
   "theme": "Kung Fur Hustle",
-  "statistics": [{
-    "title": "attendees",
-    "number": "1.066"
-  }],
+  "year": "2011",
+  "date": {
+    "start": "2011-08-17",
+    "end": "2011-08-21"
+  },
+  "location": "Magdeburg, Germany",
+  "attendees": "1.066",
   "daily": [
     {
       "title": "Issue 11, Wednesday",

@@ -1,6 +1,12 @@
 {
   "title": "Eurofurence 21",
   "theme": "Greenhouse World",
+  "year": "2015",
+  "date": {
+    "start": "2015-08-19",
+    "end": "2015-08-23"
+  },
+  "location": "Berlin, Germany",
   "daily": [
     {
       "title": "Issue 28, Thursday",
@@ -33,10 +39,7 @@
       "url": "https://vimeo.com/218944499"
     }
   ],
-  "statistics": [{
-    "title": "attendees",
-    "number": "2.095"
-  }],
+  "attendees": "2.095",
   "conbook": "/conbooks/EF_21_Conbook.pdf",
   "website": "https://www.eurofurence.org/EF21/"
 }

@@ -39,7 +39,7 @@ a, a:hover {
   background-color: #005953;
 }
 
-@media (max-width: 1104px) {
+@media (max-width: 1184px) {
   .banner {
     position: fixed;
     width: 100%;
@@ -51,7 +51,7 @@ a, a:hover {
   }
 }
 
-@media (min-width: 1104px) {
+@media (min-width: 1184px) {
   .banner {
     position: absolute;
     width: 168px;
@@ -75,7 +75,7 @@ a, a:hover {
   font-family:'IrisUPC', sans-serif;
 }
 
-@media (max-width: 1104px) {
+@media (max-width: 1184px) {
   .logo-text {
     font-size: 3.5em;
     z-index: 1;
@@ -85,7 +85,7 @@ a, a:hover {
   }
 }
 
-@media (min-width: 1104px) {
+@media (min-width: 1184px) {
   .logo-text {
     font-size: 62px;
     width: calc(100vh - 325px);
@@ -105,7 +105,7 @@ a, a:hover {
   
 }
 
-@media (max-height: 700px) and (min-width: 1104px) {
+@media (max-height: 700px) and (min-width: 1184px) {
   .logo-text {
     font-family:'IrisUPC', sans-serif;
     font-size: 62px;
@@ -117,17 +117,17 @@ a, a:hover {
   }
 }
 
-@media (max-height: 550px) and (min-width: 1104px) {
+@media (max-height: 550px) and (min-width: 1184px) {
   .logo-text {
     display: none;
   }
 }
 
-@media (min-width: 1104px) {
+@media (min-width: 1184px) {
   .menu {
     margin-left: 167px;
     margin-top: 5px;
-    width: 238px;
+    width: 258px;
     height: calc(100vh - 5px);
     overflow-x: hidden;
     overflow-y: auto;
@@ -154,12 +154,27 @@ a, a:hover {
   flex: 0 0 auto;
   user-select: none;
   padding: 13px 16px;
+  padding-left: 30px;
+  height: 76px;
   text-transform: none;
   color: rgba(0,0,0,.87);
   display: block;
   background: 0 0;
   border-top: none;
   border-right: none;
+}
+
+.menu a .menu-year {
+  position: absolute;
+  width: 76px;
+  text-align: center;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+  padding-top: 6px;
+  padding-bottom: 2px;
+  transform: rotate(270deg) translateX(-76px);
+  transform-origin: top left;
+  top: 0;
+  left: 0;
 }
 
 .menu a:before {
@@ -223,20 +238,29 @@ a, a:hover {
   margin-top: 0;
 }
 
-.statistics {
-  text-align: center;
-}
-
-.statistics .value {
-  font-size: 56px;
-  line-height: 56px;
-}
-
-.statistics .label {
-  text-transform: uppercase;
+.main-data {
+  display: flex;
+  gap: 20px;
   font-size: 16px;
-  line-height: 16px;
-  font-weight: 700;
+}
+
+.main-data > div {
+  flex: 1;
+
+  box-shadow: 1px 1px 3px #aaa;
+  padding: 20px;
+  padding-top: 25px;
+  line-height: 25px;
+}
+
+.main-data .attendees {
+  text-align: center;
+  font-size: 22px;
+}
+
+.main-data span {
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .content ul img {
@@ -280,7 +304,7 @@ a, a:hover {
   box-sizing: border-box;
 }
 
-@media (max-width: 1104px) {
+@media (max-width: 1184px) {
   body {
     overflow: auto;
   }
@@ -324,7 +348,7 @@ a, a:hover {
   margin-bottom: 0;
 }
 
-@media (min-width: 1104px) {
+@media (min-width: 1184px) {
   .content {
     position: absolute;
     left: 404px;

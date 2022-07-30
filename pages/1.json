@@ -1,8 +1,11 @@
 {
   "title": "Eurofurence 1",
-  "statistics": [{
-    "title": "attendees",
-    "number": "19"
-  }],
+  "year": "1995",
+  "date": {
+    "start": "1995-06-30",
+    "end": "1995-07-03"
+  },
+  "location": "Kaiser-Wilhelm-Koog, Germany",
+  "attendees": "19",
   "website": "https://www.eurofurence.org/EF1/eurofurence.html"
 }

@@ -1,9 +1,12 @@
 {
   "title": "Eurofurence 7",
-  "statistics": [{
-    "title": "attendees",
-    "number": "230"
-  }],
+  "year": "2001",
+  "date": {
+    "start": "2001-08-02",
+    "end": "2001-08-05"
+  },
+  "location": "Kirchen, Germany",
+  "attendees": "230",
   "conbook": "/conbooks/EF_7_Conbook.pdf",
   "website": "https://www.eurofurence.org/EF7/"
 }

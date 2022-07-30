@@ -1,6 +1,12 @@
 {
   "orderNr": 25.1,
   "title": "Eurofurence Online 2020",
+  "year": "2020",
+  "date": {
+    "start": "2020-08-21",
+    "end": "2020-08-23"
+  },
+  "location": "Worldwide",
   "website": "https://www.eurofurence.org/EFO2020/",
   "daily": [
     {
@@ -14,6 +20,88 @@
     {
       "title": "Issue 51, Sunday",
       "url": "/daily/EFO_2020.08.23_sunday_issue.51.pdf"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Opening Ceremonies",
+      "url": "https://www.youtube.com/watch?v=pPrS43yDNXA"
+    },
+    {
+      "title": "Fox Amoore in Concert",
+      "url": "https://www.youtube.com/watch?v=DumceQiH3FU"
+    },
+    {
+      "title": "Pepper Coyote in Concert",
+      "url": "https://www.youtube.com/watch?v=3k1nQ2twrMo"
+    },
+    {
+      "title": "Rhubarb And Cosmik in Concert",
+      "url": "https://www.youtube.com/watch?v=pFgxpyVFXlQ"
+    },
+    {
+      "title": "Plugged In - Video Surprises",
+      "url": "https://www.youtube.com/watch?v=EeDPQaLhUBE"
+    },
+    {
+      "title": "Ambient Concert - Spheric Worlds 3",
+      "url": "https://www.youtube.com/watch?v=qWwossgkKm8"
+    },
+    {
+      "title": "Meet the Cheetah Preservation Foundation",
+      "url": "https://www.youtube.com/watch?v=m92ekX74UIQ"
+    },
+    {
+      "title": "Breakfast with Cheetahs",
+      "url": "https://www.youtube.com/watch?v=SUIheXvH0kw"
+    },
+    {
+      "title": "Animal Training at the Cheetah Protection Foundation",
+      "url": "https://www.youtube.com/watch?v=tdOW5tAxjDs"
+    },
+    {
+      "title": "Furscience - 50 CRAZY Facts about Furries",
+      "url": "https://www.youtube.com/watch?v=_bFmRobJGcw"
+    },
+    {
+      "title": "Welcome to the Pawpetshow",
+      "url": "https://www.youtube.com/watch?v=l8HLmEgtmM0"
+    },
+    {
+      "title": "The Pawpet Show - You Write a Script and then Shit Happens",
+      "url": "https://www.youtube.com/watch?v=LqgyLcojNMk"
+    },
+    {
+      "title": "Puppet Crafting with Tioh",
+      "url": "https://www.youtube.com/watch?v=DlJHE68bE7g"
+    },
+    {
+      "title": "Meet the Main Cast of 'The Skies of Astar'",
+      "url": "https://www.youtube.com/watch?v=NmhSpgsQP8c"
+    },
+    {
+      "title": "Convention War Stories",
+      "url": "https://www.youtube.com/watch?v=lbYcNOyO-Yk"
+    },
+    {
+      "title": "Time With our Guest of Honor",
+      "url": "https://www.youtube.com/watch?v=fDO_-fKKIlo"
+    },
+    {
+      "title": "Nailed It - The Artist Challenge",
+      "url": "https://www.youtube.com/watch?v=K6oKSD3atO8"
+    },
+    {
+      "title": "Virtual Conventions - Will they Stay?",
+      "url": "https://www.youtube.com/watch?v=mP8WtWVKdEY"
+    },
+    {
+      "title": "Virtualfurence - How to Make a Virtual Convention Space",
+      "url": "https://www.youtube.com/watch?v=K8MbDzw1LpQ"
+    },
+    {
+      "title": "Closing Ceremony",
+      "url": "https://www.youtube.com/watch?v=MuhwLwFSAG8"
     }
   ]
 }

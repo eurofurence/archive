@@ -1,10 +1,13 @@
 {
   "title": "Eurofurence 12",
   "theme": "The Hounds of Blackwhite Castle",
-  "statistics": [{
-    "title": "attendees",
-    "number": "405"
-  }],
+  "year": "2006",
+  "date": {
+    "start": "2006-08-23",
+    "end": "2006-08-27"
+  },
+  "location": "Nuremberg, Germany",
+  "attendees": "405",
   "conbook": "/conbooks/EF_12_Conbook.pdf",
   "videos": [
     {

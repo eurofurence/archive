@@ -1,10 +1,13 @@
 {
   "title": "Eurofurence 15",
   "theme": "1001 Arabian Nights",
-  "statistics": [{
-    "title": "attendees",
-    "number": "955"
-  }],
+  "year": "2009",
+  "date": {
+    "start": "2009-08-26",
+    "end": "2009-08-30"
+  },
+  "location": "Suhl, Germany",
+  "attendees": "955",
   "daily": [
     {
       "title": "Issue 1, Wednesday",
@@ -28,6 +31,10 @@
     }
   ],
   "videos": [
+    {
+      "title": "Operation Desert Snow",
+      "url": "https://www.youtube.com/watch?v=CZVjv-9GHbs"
+    },
     {
       "title": "Eurofurence 15 (2009) - Part 1/2",
       "url": "https://vimeo.com/111953390"

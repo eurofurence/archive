@@ -1,11 +1,14 @@
 {
   "title": "Eurofurence 10",
   "theme": "EFX - The Movie!",
+  "year": "2004",
+  "date": {
+    "start": "2004-08-26",
+    "end": "2004-08-29"
+  },
+  "location": "Olpe, Germany",
   "conbook": "/conbooks/EF_10_Conbook.pdf",
-  "statistics": [{
-    "title": "attendees",
-    "number": "295"
-  }],
+  "attendees": "295",
   "videos": [
     {
       "title": "Eurofurence 10 (2004) - From the Archives",

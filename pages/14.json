@@ -1,10 +1,13 @@
 {
   "title": "Eurofurence 14",
   "theme": "From Dusk Till Dawn",
-  "statistics": [{
-    "title": "attendees",
-    "number": "777"
-  }],
+  "year": "2008",
+  "date": {
+    "start": "2008-08-27",
+    "end": "2008-08-31"
+  },
+  "location": "Suhl, Germany",
+  "attendees": "777",
   "conbook": "/conbooks/EF_14_Conbook.pdf",
   "website": "https://www.eurofurence.org/EF14/"
 }

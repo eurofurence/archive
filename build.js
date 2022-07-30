@@ -65,11 +65,22 @@ fs.readdirSync("pages").forEach(function (file) {
 
   const fileName = file.slice(0, -5);
 
+  config.dateRange = `${new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  }).format(new Date(config.date.start))} - ${new Intl.DateTimeFormat("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  }).format(new Date(config.date.end))}`;
+
   years.push({
     key: fileName,
     number: config.orderNr || fileName,
     title: config.title,
     theme: config.theme,
+    year: config.year,
     data: config,
   });
 });

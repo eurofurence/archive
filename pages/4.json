@@ -1,10 +1,13 @@
 {
   "title": "Eurofurence 4",
   "conbook": "/conbooks/EF_4_Conbook.pdf",
-  "statistics": [{
-    "title": "attendees",
-    "number": "94"
-  }],
+  "year": "1998",
+  "date": {
+    "start": "1998-08-01",
+    "end": "1998-08-05"
+  },
+  "location": "Heeze, Netherlands",
+  "attendees": "94",
   "videos": [
     {
       "title": "Eurofurence 4 (1998) - Pure Nostalgia",

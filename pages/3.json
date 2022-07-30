@@ -1,10 +1,13 @@
 {
   "title": "Eurofurence 3",
   "conbook": "/conbooks/EF_3_Conbook.pdf",
-  "statistics": [{
-    "title": "attendees",
-    "number": "59"
-  }],
+  "year": "1997",
+  "date": {
+    "start": "1997-08-21",
+    "end": "1997-08-24"
+  },
+  "location": "Bodstedt, Germany",
+  "attendees": "59",
   "videos": [
     {
       "title": "Eurofurence 3 (1997) - The Lost Tape",

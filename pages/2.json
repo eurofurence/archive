@@ -1,8 +1,11 @@
 {
   "title": "Eurofurence 2",
-  "statistics": [{
-    "title": "attendees",
-    "number": "35"
-  }],
+  "year": "1996",
+  "date": {
+    "start": "1996-07-18",
+    "end": "1996-07-22"
+  },
+  "location": "Rydsskolan, Ryd, Linkoping, Sweden",
+  "attendees": "35",
   "website": "https://www.eurofurence.org/EF2/orig.html"
 }

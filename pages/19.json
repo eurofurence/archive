@@ -1,6 +1,12 @@
 {
   "title": "Eurofurence 19",
   "theme": "Aloha Hawaii",
+  "year": "2013",
+  "date": {
+    "start": "2013-08-21",
+    "end": "2013-08-25"
+  },
+  "location": "Magdeburg, Germany",
   "daily": [
     {
       "title": "Issue 20, Thursday",
@@ -29,10 +35,7 @@
       "url": "https://vimeo.com/116841159"
     }
   ],
-  "statistics": [{
-    "title": "attendees",
-    "number": "1.376"
-  }],
+  "attendees": "1.376",
   "conbook": "/conbooks/EF_19_Conbook.pdf",
   "website": "https://www.eurofurence.org/EF19/"
 }

@@ -1,10 +1,13 @@
 {
   "title": "Eurofurence 8",
   "theme": "The F.I.A.",
-  "statistics": [{
-    "title": "attendees",
-    "number": "260"
-  }],
+  "year": "2002",
+  "date": {
+    "start": "2002-08-15",
+    "end": "2002-08-18"
+  },
+  "location": "Oberbernhards, Germany",
+  "attendees": "260",
   "conbook": "/conbooks/EF_8_Conbook.pdf",
   "website": "https://www.eurofurence.org/EF8/"
 }

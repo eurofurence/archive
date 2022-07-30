@@ -1,6 +1,12 @@
 {
   "title": "Eurofurence 22",
   "theme": "Back to the 80s",
+  "year": "2016",
+  "date": {
+    "start": "2016-08-17",
+    "end": "2016-08-21"
+  },
+  "location": "Berlin, Germany",
   "daily": [
     {
       "title": "Issue 32, Thursday",
@@ -21,8 +27,8 @@
   ],
   "videos": [
     {
-      "title": "Goldeneyes Prologue",
-      "url": "https://vimeo.com/182965292"
+      "title": "Goldeneyes",
+      "url": "https://www.youtube.com/watch?v=98gN0-OUbiA"
     },
     {
       "title": "Eurofurence 22 (2016) - Part 1/2",
@@ -37,10 +43,7 @@
       "url": "https://vimeo.com/233568598"
     }
   ],
-  "statistics": [{
-    "title": "attendees",
-    "number": "2.573"
-  }],
+  "attendees": "2.573",
   "conbook": "/conbooks/EF_22_Conbook.pdf",
   "website": "https://www.eurofurence.org/EF22/"
 }

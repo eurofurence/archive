@@ -1,9 +1,12 @@
 {
   "title": "Eurofurence 6",
-  "statistics": [{
-    "title": "attendees",
-    "number": "160"
-  }],
+  "year": "2000",
+  "date": {
+    "start": "2000-08-10",
+    "end": "2000-08-13"
+  },
+  "location": "Göttingen, Germany",
+  "attendees": "160",
   "conbook": "/conbooks/EF_6_Conbook.pdf",
   "website": "https://www.eurofurence.org/EF6/"
 }
