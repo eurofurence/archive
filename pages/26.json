@@ -1,0 +1,37 @@
+{
+  "title": "Eurofurence 26",
+  "theme": "Tortuga - On the High Seas",
+  "year": "2022",
+  "date": {
+    "start": "2022-08-24",
+    "end": "2022-08-28"
+  },
+  "location": "Berlin, Germany",
+  "daily": [
+    {
+      "title": "Issue 55, Thursday",
+      "url": "/daily/EF26_2022.08.25_thursday_issue.55.pdf"
+    },
+    {
+      "title": "Issue 56, Friday",
+      "url": "/daily/EF26_2022.08.26_friday_issue.56.pdf"
+    },
+    {
+      "title": "Issue 57, Saturday",
+      "url": "/daily/EF26_2022.08.27_saturday_issue.57.pdf"
+    },
+    {
+      "title": "Issue 58, Sunday",
+      "url": "/daily/EF26_2022.08.28_sunday_issue.58.pdf"
+    }
+  ],
+  "attendees": "3.469",
+  "videos": [
+    {
+      "title": "The Signal - Opening Titles (Pawpet Show)",
+      "url": "https://www.youtube.com/watch?v=wMXQuVlcGRQ"
+    }
+  ],
+  "conbook": "/conbooks/EF_26_Conbook.pdf",
+  "website": "https://archive.eurofurence.org/EF26/"
+}
