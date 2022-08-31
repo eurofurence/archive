@@ -96,7 +96,14 @@ years.forEach((year) => {
   fs.mkdirSync("build/" + year.key);
   fs.writeFileSync(
     "build/" + year.key + "/index.html",
-    Mustache.render(template, { years, content: year.data, year: year.key }),
+    Mustache.render(template, {
+      years: years.map((entry) => ({
+        ...entry,
+        class: entry.key === year.key ? "selected" : "",
+      })),
+      content: year.data,
+      year: year.key,
+    }),
     { encoding: "utf8" }
   );
 });

@@ -1,28 +1,32 @@
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(/fonts/lato-regular.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  src: local("Lato Regular"), local("Lato-Regular"),
+    url(/fonts/lato-regular.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+    U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(/fonts/lato-bold.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  src: local("Lato Bold"), local("Lato-Bold"),
+    url(/fonts/lato-bold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+    U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
   min-width: 320px;
   background: #fff;
   font-size: 14px;
-  color: rgba(0,0,0,.87);
+  color: rgba(0, 0, 0, 0.87);
   height: 100%;
 }
 
@@ -31,7 +35,8 @@ a {
   color: #4183c4;
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
 
@@ -57,7 +62,7 @@ a, a:hover {
     width: 168px;
     height: 100%;
   }
-  
+
   .banner img {
     position: absolute;
     bottom: 20px;
@@ -66,13 +71,13 @@ a, a:hover {
 }
 
 @font-face {
-  font-family: 'IrisUPC';
-  src: url('/fonts/upcil.ttf');
+  font-family: "IrisUPC";
+  src: url("/fonts/upcil.ttf");
 }
 
 .logo-text {
   color: white;
-  font-family:'IrisUPC', sans-serif;
+  font-family: "IrisUPC", sans-serif;
 }
 
 @media (max-width: 1184px) {
@@ -90,7 +95,8 @@ a, a:hover {
     font-size: 62px;
     width: calc(100vh - 325px);
     min-width: 360px;
-    transform: rotate(-90deg) translateX(-100vh) translateX(340px) translateY(100px);
+    transform: rotate(-90deg) translateX(-100vh) translateX(340px)
+      translateY(100px);
     transform-origin: left top 0;
   }
 
@@ -102,16 +108,16 @@ a, a:hover {
     width: 100vw;
     height: 5px;
   }
-  
 }
 
 @media (max-height: 700px) and (min-width: 1184px) {
   .logo-text {
-    font-family:'IrisUPC', sans-serif;
+    font-family: "IrisUPC", sans-serif;
     font-size: 62px;
     width: 0;
     min-width: 0;
-    transform: rotate(-90deg) translateX(-100vh) translateX(340px) translateY(75px);
+    transform: rotate(-90deg) translateX(-100vh) translateX(340px)
+      translateY(75px);
     line-height: 40px;
     transform-origin: left top 0;
   }
@@ -157,11 +163,16 @@ a, a:hover {
   padding-left: 30px;
   height: 76px;
   text-transform: none;
-  color: rgba(0,0,0,.87);
+  color: rgba(0, 0, 0, 0.87);
   display: block;
   background: 0 0;
   border-top: none;
   border-right: none;
+}
+
+.menu a.selected,
+.menu a.selected:hover {
+  background: rgba(0, 89, 83, 0.2);
 }
 
 .menu a .menu-year {
@@ -184,23 +195,23 @@ a, a:hover {
   left: 0;
   width: 100%;
   height: 1px;
-  background: rgba(34,36,38,.1);
+  background: rgba(34, 36, 38, 0.1);
 }
 
 .menu a:hover {
-  background: rgba(0,0,0,.03);
-  color: rgba(0,0,0,.95);
+  background: rgba(0, 0, 0, 0.03);
+  color: rgba(0, 0, 0, 0.95);
 }
 
 .menu a h4 {
   border: none;
   margin: -2px 0 14px;
   padding: 0;
-  font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
   font-weight: 700;
   line-height: 19px;
   text-transform: none;
-  color: rgba(0,0,0,.87);
+  color: rgba(0, 0, 0, 0.87);
   font-size: 15px;
   margin-top: -2px;
 }
@@ -220,17 +231,17 @@ a, a:hover {
 
 .content h2 {
   text-align: center;
-  color: rgba(0,0,0,.87);
+  color: rgba(0, 0, 0, 0.87);
   font-size: 24px;
   line-height: 38px;
 }
 
 .content .info-box {
-  box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
   margin: 1rem 0;
   padding: 1em;
   border-radius: 4px;
-  border: 1px solid rgba(34,36,38,.15);
+  border: 1px solid rgba(34, 36, 38, 0.15);
   line-height: 21px;
 }
 
@@ -312,7 +323,7 @@ a, a:hover {
   .content {
     padding: 65px 14px 0 14px;
   }
-  
+
   .year-select-note {
     padding-left: 1em;
   }
@@ -330,7 +341,7 @@ a, a:hover {
 .warning img {
   margin: auto 25px auto 0;
   height: 42px;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .warning div {
