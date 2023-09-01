@@ -22,6 +22,6 @@ If you want to add more features or fix bugs on the site itself, you need to fol
 1. Clone this repository
 1. Open a terminal in the root directory of this repository
 1. run `npm install`
-1. Make the changes to the `template.html` or `build.js` file.
+1. Make the necessary changes to the `template.html` or `build.js` files or by creating a new file in the `pages` directory.
 1. After you are satisfied, run `node build`
 1. Commit and Push your changes
