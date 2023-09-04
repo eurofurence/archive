@@ -6,6 +6,12 @@
     "start": "2023-09-03",
     "end": "2023-09-07"
   },
+  "daily": [
+    {
+      "title": "Issue 59, Monday",
+      "url": "/daily/EF27_2023.09.04_monday_issue.59.pdf"
+    }
+  ],
   "location": "Hamburg, Germany",
   "conbook": "/conbooks/EF_27_Conbook.pdf",
   "website": "https://www.eurofurence.org/EF27/"
