@@ -2,6 +2,7 @@
   "title": "Eurofurence 27",
   "theme": "Black Magic",
   "year": "2023",
+  "attendees": "3.389",
   "date": {
     "start": "2023-09-03",
     "end": "2023-09-07"
@@ -18,6 +19,10 @@
     {
       "title": "Issue 61, Wednesday",
       "url": "/daily/EF27_2023.09.06_wednesday_issue.61.pdf"
+    },
+    {
+      "title": "Issue 62, Thursday",
+      "url": "/daily/EF27_2023.09.06_thursday_issue.62.pdf"
     }
   ],
   "location": "Hamburg, Germany",
