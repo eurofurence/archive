@@ -35,6 +35,18 @@
       "url": "https://www.youtube.com/watch?v=5WRFtGXE7aw"
     }
   ],
+  "photos": [
+    {
+      "title": "Group Photo",
+      "url": "https://photo.eurofurence.org/EF27-ConventionGroupPhoto.jpg",
+      "thumb": "https://photo.eurofurence.org/EF27-ConventionGroupPhoto.thumb.jpg"
+    },
+    {
+      "title": "Fursuit Group Photo",
+      "url": "https://photo.eurofurence.org/EF27-FursuitGroupPhoto.jpg",
+      "thumb": "https://photo.eurofurence.org/EF27-FursuitGroupPhoto.thumb.jpg"
+    }
+  ],
   "location": "Hamburg, Germany",
   "conbook": "/conbooks/EF_27_Conbook.pdf",
   "website": "https://archive.eurofurence.org/EF27/"
