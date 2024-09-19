@@ -7,7 +7,12 @@
     "start": "2024-09-18",
     "end": "2024-09-21"
   },
-  "daily": [],
+  "daily": [
+    {
+      "title": "Issue 63, Thursday",
+      "url": "/daily/EF28_2024.09.19_thursday_issue.63.pdf"
+    }
+  ],
   "videos": [],
   "photos": [],
   "location": "Hamburg, Germany",
