@@ -2,7 +2,7 @@
   "title": "Eurofurence 28",
   "theme": "Cyberpunk",
   "year": "2024",
-  "attendees": "~ 5.000",
+  "attendees": "5.241",
   "date": {
     "start": "2024-09-18",
     "end": "2024-09-21"
@@ -11,6 +11,18 @@
     {
       "title": "Issue 63, Thursday",
       "url": "/daily/EF28_2024.09.19_thursday_issue.63.pdf"
+    },
+    {
+      "title": "Issue 64, Friday",
+      "url": "/daily/EF28_2024.09.20_friday_issue.64.pdf"
+    },
+    {
+      "title": "Issue 65, Saturday",
+      "url": "/daily/EF28_2024.09.21_saturday_issue.65.pdf"
+    },
+    {
+      "title": "Issue 66, Sunday",
+      "url": "/daily/EF28_2024.09.22_sunday_issue.66.pdf"
     }
   ],
   "videos": [],
