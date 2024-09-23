@@ -25,7 +25,16 @@
       "url": "/daily/EF28_2024.09.22_sunday_issue.66.pdf"
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "title": "Super Sponsor Gift Announcement",
+      "url": "https://www.youtube.com/watch?v=I0Yuqyf1o7M"
+    },
+    {
+      "title": "Pawpet Show Opening Titles - The First Mage",
+      "url": "https://www.youtube.com/watch?v=PyB1wyds9co"
+    }
+  ],
   "photos": [],
   "location": "Hamburg, Germany",
   "conbook": "/conbooks/EF_28_Conbook.pdf",
