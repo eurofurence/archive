@@ -43,6 +43,13 @@
       "url": "https://vimeo.com/217138653"
     }
   ],
+  "photos": [
+    {
+      "title": "Group Photo",
+      "url": "https://photo.eurofurence.org/EF20-ConventionGroupPhoto.jpg",
+      "thumb": "https://photo.eurofurence.org/EF20-ConventionGroupPhoto.jpg"
+    }
+  ],
   "attendees": "2.015",
   "conbook": "/conbooks/EF_20_Conbook.pdf",
   "website": "http://archive.eurofurence.org/EF20/"

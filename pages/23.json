@@ -48,7 +48,18 @@
       "url": "https://vimeo.com/248911188"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "title": "Group Photo",
+      "url": "https://photo.eurofurence.org/EF23-ConventionGroupPhoto.jpg",
+      "thumb": "https://photo.eurofurence.org/EF23-ConventionGroupPhoto.thumb.jpg"
+    },
+    {
+      "title": "Fursuit Group Photo",
+      "url": "https://photo.eurofurence.org/EF23-FursuitGroupPhoto.jpg",
+      "thumb": "https://photo.eurofurence.org/EF23-FursuitGroupPhoto.thumb.jpg"
+    }
+  ],
   "misc": [],
   "conbook": "/conbooks/EF_23_Conbook.pdf",
   "website": "https://archive.eurofurence.org/EF23/"

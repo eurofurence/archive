@@ -43,6 +43,18 @@
       "url": "https://vimeo.com/233568598"
     }
   ],
+  "photos": [
+    {
+      "title": "Group Photo",
+      "url": "https://photo.eurofurence.org/EF22-ConventionGroupPhoto.jpg",
+      "thumb": "https://photo.eurofurence.org/EF22-ConventionGroupPhoto.thumb.jpg"
+    },
+    {
+      "title": "Fursuit Group Photo",
+      "url": "https://photo.eurofurence.org/EF22-FursuitGroupPhoto.jpg",
+      "thumb": "https://photo.eurofurence.org/EF22-FursuitGroupPhoto.thumb.jpg"
+    }
+  ],
   "attendees": "2.573",
   "conbook": "/conbooks/EF_22_Conbook.pdf",
   "website": "https://archive.eurofurence.org/EF22/"
