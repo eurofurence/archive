@@ -31,8 +31,8 @@
       "url": "https://www.youtube.com/watch?v=I0Yuqyf1o7M"
     },
     {
-      "title": "Pawpet Show Opening Titles - The First Mage",
-      "url": "https://www.youtube.com/watch?v=PyB1wyds9co"
+      "title": "Opening Ceremonies",
+      "url": "https://www.youtube.com/watch?v=ef-Y2BxeV1A"
     },
     {
       "title": "Onkel Kage's Story Hour",
@@ -41,10 +41,18 @@
     {
       "title": "Onkel Kage's Charity Show",
       "url": "https://www.youtube.com/watch?v=jCU9K42QrWw"
+    },
+    {
+      "title": "Paws On Fire",
+      "url": "https://www.youtube.com/watch?v=s3IMMzCbxNQ"
+    },
+    {
+      "title": "Pawpet Show Opening Titles - The First Mage",
+      "url": "https://www.youtube.com/watch?v=PyB1wyds9co"
     }
   ],
   "photos": [],
   "location": "Hamburg, Germany",
   "conbook": "/conbooks/EF_28_Conbook.pdf",
-  "website": "https://eurofurence.org/EF28/"
+  "website": "https://archive.eurofurence.org/EF28/"
 }
