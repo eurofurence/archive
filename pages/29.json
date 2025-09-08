@@ -2,18 +2,38 @@
   "title": "Eurofurence 29",
   "theme": "Space Expedition",
   "year": "2025",
-  "attendees": "~ 6.000",
+  "attendees": "6.451",
   "date": {
     "start": "2025-09-03",
     "end": "2025-09-06"
   },
   "daily": [
+    {
+      "title": "Issue 67, Thursday",
+      "url": "/daily/EF29_2025.09.04_thursday_issue.67.pdf"
+    },
+    {
+      "title": "Issue 68, Friday",
+      "url": "/daily/EF29_2025.09.05_friday_issue.68.pdf"
+    },
+    {
+      "title": "Issue 69, Saturday",
+      "url": "/daily/EF29_2025.09.06_saturday_issue.69.pdf"
+    },
+    {
+      "title": "Issue 70, Sunday",
+      "url": "/daily/EF29_2025.09.07_sunday_issue.70.pdf"
+    }
   ],
   "videos": [
+    {
+      "title": "Stream Recordings (Login Required)",
+      "url": "https://stream.eurofurence.org/recordings"
+    }
   ],
   "photos": [
   ],
   "location": "Hamburg, Germany",
   "conbook": "/conbooks/EF_29_Conbook.pdf",
-  "website": "https://eurofurence.org"
+  "website": "https://www.eurofurence.org/EF29/"
 }
