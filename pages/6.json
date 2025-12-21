@@ -7,6 +7,12 @@
   },
   "location": "Göttingen, Germany",
   "attendees": "160",
+  "videos": [
+    {
+      "title": "Pawpetshow: Lionel Scritchie's Dormitory",
+      "url": "https://www.youtube.com/watch?v=HWYgEk7kFtM"
+    }
+  ],
   "conbook": "/conbooks/EF_6_Conbook.pdf",
   "website": "https://archive.eurofurence.org/EF6/"
 }
