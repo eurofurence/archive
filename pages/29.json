@@ -51,7 +51,18 @@
       "url": "https://www.youtube.com/watch?v=9fZKg9_TAG0"
     }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "title": "Group Photo",
+      "url": "https://photo.eurofurence.org/2025/Group_Photo/Group-EF29-Everyone.jpg",
+      "thumb": "https://photo.eurofurence.org/2025/Group_Photo/Group-EF29-Everyone.thumb.jpg"
+    },
+    {
+      "title": "Fursuit Group Photo",
+      "url": "https://photo.eurofurence.org/2025/Group_Photo/Group-EF29-Fursuit.jpg",
+      "thumb": "https://photo.eurofurence.org/2025/Group_Photo/Group-EF29-Fursuit.thumb.jpg"
+    }
+  ],
   "location": "Hamburg, Germany",
   "conbook": "/conbooks/EF_29_Conbook.pdf",
   "website": "https://archive.eurofurence.org/EF29/"
