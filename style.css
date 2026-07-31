@@ -2,32 +2,50 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: local("Lato Regular"), local("Lato-Regular"),
+  src:
+    local("Lato Regular"),
+    local("Lato-Regular"),
     url(/fonts/lato-regular.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
-    U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F,
+    U+2074, U+20AC, U+2212, U+2215;
 }
 
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  src: local("Lato Bold"), local("Lato-Bold"),
+  src:
+    local("Lato Bold"),
+    local("Lato-Bold"),
     url(/fonts/lato-bold.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
-    U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F,
+    U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: "IrisUPC";
+  src: url("/fonts/upcil.ttf");
 }
 
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+  font-family:
+    Lato,
+    Helvetica Neue,
+    Arial,
+    Helvetica,
+    sans-serif;
   min-width: 320px;
   background: #fff;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.87);
-  height: 100%;
+  height: 100vh;
+  border-top: 5px solid #005953;
+  display: flex;
 }
 
 a {
@@ -42,37 +60,13 @@ a:hover {
 
 .banner {
   background-color: #005953;
+  width: 168px;
 }
 
-@media (max-width: 1184px) {
-  .banner {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-  }
-
-  .banner img {
-    display: none;
-  }
-}
-
-@media (min-width: 1184px) {
-  .banner {
-    position: absolute;
-    width: 168px;
-    height: 100%;
-  }
-
-  .banner img {
-    position: absolute;
-    bottom: 20px;
-    cursor: pointer;
-  }
-}
-
-@font-face {
-  font-family: "IrisUPC";
-  src: url("/fonts/upcil.ttf");
+.banner img {
+  position: absolute;
+  bottom: 20px;
+  cursor: pointer;
 }
 
 .logo-text {
@@ -90,7 +84,7 @@ a:hover {
   }
 }
 
-@media (min-width: 1184px) {
+@media (min-width: 1185px) {
   .logo-text {
     font-size: 62px;
     width: calc(100vh - 325px);
@@ -110,7 +104,7 @@ a:hover {
   }
 }
 
-@media (max-height: 700px) and (min-width: 1184px) {
+@media (max-height: 700px) and (min-width: 1185px) {
   .logo-text {
     font-family: "IrisUPC", sans-serif;
     font-size: 62px;
@@ -123,26 +117,22 @@ a:hover {
   }
 }
 
-@media (max-height: 550px) and (min-width: 1184px) {
+@media (max-height: 550px) and (min-width: 1185px) {
   .logo-text {
     display: none;
   }
 }
 
-@media (min-width: 1184px) {
+@media (min-width: 1185px) {
   .menu {
-    margin-left: 167px;
-    margin-top: 5px;
     width: 258px;
-    height: calc(100vh - 5px);
     overflow-x: hidden;
     overflow-y: auto;
     font-weight: 400;
     font-size: 14px;
     display: block;
     flex-direction: column;
-    position: absolute;
-    top: 0;
+    border-right: 1px solid #ddd;
   }
 
   .content-container {
@@ -166,8 +156,7 @@ a:hover {
   color: rgba(0, 0, 0, 0.87);
   display: block;
   background: 0 0;
-  border-top: none;
-  border-right: none;
+  border-bottom: 1px solid #ddd;
 }
 
 .menu a.selected,
@@ -188,26 +177,25 @@ a:hover {
   left: 0;
 }
 
-.menu a:before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background: rgba(34, 36, 38, 0.1);
-}
-
 .menu a:hover {
   background: rgba(0, 0, 0, 0.03);
   color: rgba(0, 0, 0, 0.95);
+}
+
+.menu a:focus-visible {
+  outline: none;
 }
 
 .menu a h4 {
   border: none;
   margin: -2px 0 14px;
   padding: 0;
-  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+  font-family:
+    Lato,
+    Helvetica Neue,
+    Arial,
+    Helvetica,
+    sans-serif;
   font-weight: 700;
   line-height: 19px;
   text-transform: none;
@@ -278,7 +266,7 @@ a:hover {
   width: 16px;
   height: 16px;
   vertical-align: text-bottom;
-  margin-right: 5px;
+  margin: 5px;
 }
 
 .content ul {
@@ -302,6 +290,7 @@ a:hover {
 
 .content ul.photos li img {
   width: 250px;
+  max-width: 100%;
   height: auto;
   border: 1px solid #333;
   box-shadow: 2px 2px 3px #777;
@@ -315,25 +304,13 @@ a:hover {
   box-sizing: border-box;
 }
 
-@media (max-width: 1184px) {
-  body {
-    overflow: auto;
-  }
-
-  .content {
-    padding: 65px 14px 0 14px;
-  }
-
-  .year-select-note {
-    padding-left: 1em;
-  }
-}
-
 .warning {
   margin: 1em 0;
   background-color: #fffaf3;
   padding: 1em 1.5em;
-  box-shadow: inset 0 0 0 1px #c9ba9b, 0 0 0 0 transparent;
+  box-shadow:
+    inset 0 0 0 1px #c9ba9b,
+    0 0 0 0 transparent;
   border-radius: 4px;
   display: flex;
 }
@@ -359,22 +336,64 @@ a:hover {
   margin-bottom: 0;
 }
 
-@media (min-width: 1184px) {
+@media (min-width: 1185px) {
   .content {
-    position: absolute;
-    left: 404px;
-    top: 5px;
-    height: calc(100vh - 5px);
-    right: 0;
+    flex: 1;
     padding-top: 2em;
     overflow: auto;
   }
 
-  .year-select-note {
+  .warning {
+    display: none;
+  }
+}
+
+@media (max-width: 1184px) {
+  body {
+    flex-direction: column;
+  }
+
+  .banner {
+    width: 100%;
+    margin-top: -5px;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .banner img {
     display: none;
   }
 
-  .warning {
+  .menu {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border-bottom: 1px solid #999;
+  }
+
+  .menu h4,
+  .menu p {
     display: none;
+  }
+
+  .menu a {
+    height: initial;
+    display: inline-block;
+    padding: 15px 20px;
+    border-bottom: none;
+    border-right: 1px solid #ddd;
+  }
+
+  .menu a .menu-year {
+    position: relative;
+    transform: none;
+    border-bottom: none;
+  }
+
+  .content {
+    flex: 1;
+    overflow: auto;
+    padding: 1em;
   }
 }

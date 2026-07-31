@@ -99,12 +99,12 @@ years.forEach((year) => {
     Mustache.render(template, {
       years: years.map((entry) => ({
         ...entry,
-        class: entry.key === year.key ? "selected" : "",
+        selected: entry.key === year.key,
       })),
       content: year.data,
       year: year.key,
     }),
-    { encoding: "utf8" }
+    { encoding: "utf8" },
   );
 });
 
@@ -113,7 +113,7 @@ copyFileSync("robots.txt", "build/robots.txt");
 copyFileSync(".htaccess", "build/.htaccess");
 copyFileSync(
   "google923ea510961858c2.html",
-  "build/google923ea510961858c2.html"
+  "build/google923ea510961858c2.html",
 );
 copyFolderRecursiveSync("images", "build");
 copyFolderRecursiveSync("fonts", "build");

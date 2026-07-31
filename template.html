@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -19,7 +19,13 @@
       </a>
       <div class="logo-text">Eurofurence Archive</div>
     </div>
-    <div class="divider"></div>
+    <div class="menu">
+      {{#years}}<a href="/{{key}}/"{{#selected}} class="selected" autofocus{{/selected}}>
+        <span class="menu-year">{{year}}</span>
+        <h4>{{title}}</h4>
+        <p>{{theme}}</p>
+      </a>{{/years}}
+    </div>
     <div class="content">
       <div class="content-container">
         {{^content}}
@@ -119,20 +125,6 @@
         </div>
         {{/content}}
       </div>
-    </div>
-    {{^content}}
-    <p class="year-select-note">Please select a year:</p>
-    {{/content}} {{#content}}
-    <p class="year-select-note">Also check out the other years</p>
-    {{/content}}
-    <div class="menu">
-      {{#years}}
-      <a href="/{{key}}/" class="{{class}}">
-        <span class="menu-year">{{year}}</span>
-        <h4>{{title}}</h4>
-        <p>{{theme}}</p>
-      </a>
-      {{/years}}
     </div>
   </body>
 </html>

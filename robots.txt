@@ -1,7 +1,7 @@
 #
 # robots.txt for EF Archive page
 # allowing only root to be indexed
-# and necessary scriots/files to be seen
+# and necessary scripts/files to be seen
 #
 
 User-agent: *
