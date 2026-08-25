@@ -2,12 +2,29 @@
   "title": "Eurofurence 30",
   "theme": "Fantastic Furry Festival",
   "year": "2026",
-  "attendees": "> 9.000",
+  "attendees": "9.139",
   "date": {
     "start": "2026-08-19",
     "end": "2026-08-23"
   },
-  "daily": [],
+  "daily": [
+    {
+      "title": "Issue 71, Thursday",
+      "url": "/daily/EF30_2026.08.20_thursday_issue.71.pdf"
+    },
+    {
+      "title": "Issue 72, Friday",
+      "url": "/daily/EF30_2026.08.21_friday_issue.72.pdf"
+    },
+    {
+      "title": "Issue 73, Saturday",
+      "url": "/daily/EF30_2026.08.22_saturday_issue.73.pdf"
+    },
+    {
+      "title": "Issue 74, Sunday",
+      "url": "/daily/EF30_2026.08.23_sunday_issue.74.pdf"
+    }
+  ],
   "videos": [],
   "photos": [],
   "location": "Hamburg, Germany",
