@@ -25,9 +25,54 @@
       "url": "/daily/EF30_2026.08.23_sunday_issue.74.pdf"
     }
   ],
-  "videos": [],
+  "videos": [
+    {
+      "title": "Opening Ceremony",
+      "url": "https://stream.eurofurence.org/recordings/32"
+    },
+    {
+      "title": "Pawpet Show: The Truest Crime",
+      "url": "https://stream.eurofurence.org/recordings/54"
+    },
+    {
+      "title": "Fursuit Theatre: Hellbound",
+      "url": "https://stream.eurofurence.org/recordings/41"
+    },
+    {
+      "title": "Concert: Spheric Worlds 5",
+      "url": "https://stream.eurofurence.org/recordings/53"
+    },
+    {
+      "title": "Charity Concert",
+      "url": "https://stream.eurofurence.org/recordings/47"
+    },
+    {
+      "title": "Concert: WHSPRS LIVE",
+      "url": "https://stream.eurofurence.org/recordings/44"
+    },
+    {
+      "title": "Concert: Furry Festival Orchestra",
+      "url": "https://stream.eurofurence.org/recordings/31"
+    },
+    {
+      "title": "Concert: Overworked Animals",
+      "url": "https://stream.eurofurence.org/recordings/45"
+    },
+    {
+      "title": "Paws On Fire",
+      "url": "https://stream.eurofurence.org/recordings/42"
+    },
+    {
+      "title": "Enter The Arena",
+      "url": "https://stream.eurofurence.org/recordings/33"
+    },
+    {
+      "title": "Closing Ceremony",
+      "url": "https://stream.eurofurence.org/recordings/43"
+    }
+  ],
   "photos": [],
   "location": "Hamburg, Germany",
   "conbook": "/conbooks/EF_30_Conbook.pdf",
-  "website": "https://eurofurence.org/"
+  "website": "https://eurofurence.org/EF30/"
 }
